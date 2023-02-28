@@ -1,0 +1,100 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "#data_structure",
+      "color": {
+        "a": 1,
+        "rgb": 16514648
+      }
+    },
+    {
+      "query": "#algorithm",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "#basics",
+      "color": {
+        "a": 1,
+        "rgb": 7362560
+      }
+    },
+    {
+      "query": "#theory",
+      "color": {
+        "a": 1,
+        "rgb": 16753152
+      }
+    },
+    {
+      "query": "#oop",
+      "color": {
+        "a": 1,
+        "rgb": 12430592
+      }
+    },
+    {
+      "query": "java",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "file:Linux",
+      "color": {
+        "a": 1,
+        "rgb": 2454772
+      }
+    },
+    {
+      "query": "#linux_commands",
+      "color": {
+        "a": 1,
+        "rgb": 37375
+      }
+    },
+    {
+      "query": "#system",
+      "color": {
+        "a": 1,
+        "rgb": 2277172
+      }
+    },
+    {
+      "query": "file:SQL",
+      "color": {
+        "a": 1,
+        "rgb": 12129525
+      }
+    },
+    {
+      "query": "#sql",
+      "color": {
+        "a": 1,
+        "rgb": 13984255
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.8,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.682291666666667,
+  "repelStrength": 16.25,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.7132754626224616,
+  "close": true
+}
