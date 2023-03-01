@@ -1,8 +1,9 @@
 #sql
 
-Here you can find some basic commands in SQL
+Here you can find some basic commands in SQL.
 
 ## CREATE TABLE
+
 The SQL CREATE TABLE command is used to create a new table in a relational database. 
 
 The basic syntax of the this command is as follows:
@@ -18,6 +19,7 @@ CREATE TABLE table_name ( column1 datatype constraints,
 ----------------------
 
 ## INSERT
+
 The SQL INSERT command is used to add new rows of data into a table. 
 
 The basic syntax of this command is as follows:

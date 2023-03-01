@@ -8,11 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87a54b9880d377c2",
+            "id": "9ca38df1d29b9b90",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "94081506e5ece7c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Volatile memory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87a54b9880d377c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS_and_Computers_vault/linux/memory/Memory.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -125,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -138,27 +162,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87a54b9880d377c2",
+  "active": "9ca38df1d29b9b90",
   "lastOpenFiles": [
-    "Operating System.md",
-    "commands - manipulate files.md",
-    "SQL_vault/Basic commands.md",
-    "SQL_vault/SQL.md",
-    "Database.md",
+    "Non-volatile memory.md",
+    "OS_and_Computers_vault/linux/memory/Virtual Memory.md",
+    "Volatile memory.md",
+    "OS_and_Computers_vault/linux/memory/RAM.md",
+    "OS_and_Computers_vault/linux/memory/Cache Memory.md",
+    "OS_and_Computers_vault/linux/memory/SSD.md",
+    "OS_and_Computers_vault/linux/memory/HDD.md",
+    "OS_and_Computers_vault/linux/memory/ROM.md",
+    "OS_and_Computers_vault/linux/memory/Memory.md",
+    "OS_and_Computers_vault/Operating System.md",
+    "OS_and_Computers_vault/linux/Bootloader.md",
+    "Java_vault/basics/Access modifiers.md",
+    "OS_and_Computers_vault/linux/memory",
+    "OS_and_Computers_vault/UI.md",
+    "Java_vault/theory/Memory models.md",
+    "OS_and_Computers_vault/Kernel.md",
+    "images/kernel-layout-img.png",
+    "Pasted image 20230301000643.png",
+    "Java_vault/basics/Package.md",
+    "Java_vault/basics/Variable.md",
+    "Java_vault/basics/Class.md",
+    "Java_vault/basics/Method.md",
     "Java_vault/basics/Object.md",
+    "Java_vault/theory/Type casting.md",
+    "Java_vault/basics/Scope.md",
     "Java_vault/theory/Lambda expression.md",
-    "Java_vault/theory/hash function.md",
-    "OS_and_Computers_vault/linux/Linux.md",
+    "SQL_vault/Database.md",
+    "SQL_vault/SQL.md",
     "OS_and_Computers_vault/linux/Basic commands.md",
-    "commands - search.md",
-    "User Interface (UI).md",
-    "Kernel.md",
-    "commands - create/create-delete.md",
     "OS_and_Computers_vault/linux",
     "OS_and_Computers_vault/commands - create",
     "SQL_vault",
-    "Java_vault/basics/Access modifiers.md",
-    "OS_and_Computers_vault",
-    "Java_vault/algorithms/Sorting algorithms/Sorting algorithms.md"
+    "OS_and_Computers_vault"
   ]
 }

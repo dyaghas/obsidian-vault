@@ -1,6 +1,6 @@
 #basics
 
-A [[Variable]] access can be changed through visibility modifiers to make the code more readable and not as prone to human failure.
+A [variable](Variable) access can be changed through visibility modifiers to make the code more readable and not as prone to human failure.
 
 ----
 

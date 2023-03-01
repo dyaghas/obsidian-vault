@@ -1,6 +1,6 @@
 #basics 
 
-Nothing more than a custom datatype. A factory that can produce data in a way defined by the programmer, this data is called an [[Object]]. It is an object datatype, meaning it is defined by the user (programmer).
+Nothing more than a custom datatype. A factory that can produce data in a way defined by the programmer, this data is called an [object](Object). It is an object datatype, meaning it is defined by the user (programmer).
 
 ------
 

@@ -1,6 +1,6 @@
 #data_structure
 
-A structure used to store and organize data in such a way that it can be accessed, processed and retrieved efficiently. It is built using one or more [[Data type]]s
+A structure used to store and organize data in such a way that it can be accessed, processed and retrieved efficiently. It is built using one or more [data types](<Data Type>)
 
 ----------
 

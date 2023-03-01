@@ -1,0 +1,3 @@
+#system 
+
+A bootloader is a program that loads and starts the operating system (OS) when a computer is turned on, it initializes the computer's hardware components and launches the operating system **Kernel**. When a computer is turned off, all its software remains stored in non-volatile memory. When the computer is powered on, it typically does not have an operating system or its loader in **random-access memory (RAM)**, so first it executes a relatively small program stored in **read-only memory (ROM)**, along with some needed data to initialize RAM, the nonvolatile device or devices from which the operating system programs and data can be loaded into RAM.

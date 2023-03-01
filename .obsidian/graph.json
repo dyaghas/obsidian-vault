@@ -64,6 +64,13 @@
       }
     },
     {
+      "query": "#memory-type",
+      "color": {
+        "a": 1,
+        "rgb": 11271849
+      }
+    },
+    {
       "query": "#system",
       "color": {
         "a": 1,
@@ -95,6 +102,6 @@
   "repelStrength": 16.25,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.7132754626224616,
+  "scale": 0.2588386562181773,
   "close": true
 }

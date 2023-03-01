@@ -1,8 +1,8 @@
 #basics 
 
-It is an instance of a [[Class]].
+It is an instance of a [class](Class).
 
-Example: you can consider a blue car with four doors to be an object of the [[Class]] Car. It is part of a bigger group but has it's own characteristics, it is individual.
+Example: you can consider a blue car with four doors to be an object of the [class](Class) Car. It is part of a bigger group but has it's own characteristics, it is individual.
 
 ```java
 Student s = new Student();

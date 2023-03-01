@@ -239,17 +239,16 @@ Where `command` is the action that you want to perform, such as `install`, `remo
 Some common `apt` commands and their usage are:
 
 -   `apt-get update`: This command updates the local package database, which contains information about the available software packages and their versions.
-    
+
 -   `apt-get upgrade`: This command upgrades the installed software packages to their latest versions.
-    
+
 -   `apt-get install package_name`: This command installs a new software package named `package_name`.
-    
+
 -   `apt-get remove package_name`: This command removes an installed software package named `package_name`.
-    
+
 -   `apt-get autoremove`: This command removes all the dependencies that were installed with a software package that is no longer needed by any other installed package.
-    
+
 -   `apt-cache search package_name`: This command searches for software packages that match the specified `package_name`.
-    
 
 Note that the `apt` command requires root or superuser privileges to perform certain actions, such as installing or removing software packages. Therefore, you should run the `apt` command with the `sudo` command, like this:
 
@@ -258,3 +257,5 @@ sudo apt-get [optinos] command
 ```
 
 This will prompt you for your user password, and then execute the command with elevated privileges.
+
+-------------

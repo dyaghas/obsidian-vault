@@ -1,6 +1,6 @@
 #theory
 
-Used to trace code and track [[variable]]s values throught its execution. Example:
+Used to trace code and track [variables](Variable) values throught its execution. Example:
 
 int var1;
 var1 = 52;
