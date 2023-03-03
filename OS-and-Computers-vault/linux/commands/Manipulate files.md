@@ -112,7 +112,7 @@ This command will overwrite the contents of the file `myfile.txt` 3 times with r
 
 --------------------
 
-- ## copy - copy file or directory
+- ## cp - copy file or directory
 
 In Linux, the `cp` command is a utility that is used to copy files and directories. The `cp` command takes the source file or directory and creates a new file or directory with the same contents.
 
@@ -149,7 +149,7 @@ Here are some common options that you can use with the `mv` command:
 -   `-i`: Prompt before overwriting an existing file.
 -   `-u`: Move the file only if the source is newer than the destination.
 -   `-v`: Verbose mode. Display the progress of the operation.
-- 
+
 For example, to move a file named `myfile.txt` to a new location named `myfolder/myfile.txt`, you can use the following command:
 
 ```linux
@@ -187,6 +187,48 @@ Here are some common options that you can use with the `rm` command:
 
 -------------
 
+## mkdir - Make directory
+
+The `mkdir` command in Linux is a command-line tool that is used to create new directories (folders) on the file system.
+
+The basic syntax of the `mkdir` command is:
+
+```linux
+mkdir [options] directory_name(s)
+```
+
+Some common `mkdir` options are:
+
+-   `-p`: This option creates intermediate directories if they do not exist. For example, if you want to create a directory `/home/user1/newdir`, but the `user1` directory does not exist, you can use the following command:
+
+```linux
+mkdir -p /home/user1/newdir
+```
+
+`-m`: This option sets the permissions of the new directory. You can specify the permissions in octal notation (e.g. `755`) or symbolic notation (e.g. `u+rwx,g+rx,o+rx`). For example, to create a directory with permissions `rwxr-xr-x`, you can use the following command:
+
+```linux
+mkdir -m 755 newdir
+```
+
+`-v`: This option displays a message for each directory that is created.
+
+If you want to create multiple directories at once, you can specify their names separated by spaces, like this:
+
+```linux
+mkdir dir1 dir2 dirn...
+```
+
+If you want to create a directory with a specific path, you can specify the path using the forward slash (`/`) as the directory separator, like this:
+
+```linux
+mkdir path/to/directory
+```
+
+If any of the directories in the path do not exist, you can use the `-p` option to create them.
+
+--------------------------
+
 ## ln - link
 
 In Linux, the `ln` command is used to create links between files or directories. A link is a reference to a file or directory that allows you to access the file or directory from a different location in the file system.
@@ -194,9 +236,9 @@ In Linux, the `ln` command is used to create links between files or directories.
 There are two types of links that can be created using the `ln` command:
 
 1.  Hard links: A hard link is a reference to a file or directory that points to the same physical location on disk as the original file or directory. When you create a hard link, you essentially create a new name for the file or directory. If you delete the original file or directory, the hard link will still point to the same physical location on disk.
-    
+
 2.  Symbolic links: A symbolic link, also known as a soft link, is a reference to a file or directory that points to the path of the original file or directory. When you create a symbolic link, you essentially create a shortcut to the original file or directory. If you delete the original file or directory, the symbolic link will become invalid.
-    
+
 
 The syntax of the `ln` command is as follows:
 
@@ -239,15 +281,10 @@ Where `command` is the action that you want to perform, such as `install`, `remo
 Some common `apt` commands and their usage are:
 
 -   `apt-get update`: This command updates the local package database, which contains information about the available software packages and their versions.
-
 -   `apt-get upgrade`: This command upgrades the installed software packages to their latest versions.
-
 -   `apt-get install package_name`: This command installs a new software package named `package_name`.
-
 -   `apt-get remove package_name`: This command removes an installed software package named `package_name`.
-
 -   `apt-get autoremove`: This command removes all the dependencies that were installed with a software package that is no longer needed by any other installed package.
-
 -   `apt-cache search package_name`: This command searches for software packages that match the specified `package_name`.
 
 Note that the `apt` command requires root or superuser privileges to perform certain actions, such as installing or removing software packages. Therefore, you should run the `apt` command with the `sudo` command, like this:
@@ -259,3 +296,52 @@ sudo apt-get [optinos] command
 This will prompt you for your user password, and then execute the command with elevated privileges.
 
 -------------
+
+## zip - compress files
+
+The `zip` command in Linux is used to compress files and directories into a single ZIP archive. It is a popular command-line tool for creating and managing compressed archives in Linux.
+
+The basic syntax of the `zip` command is:
+
+```linux
+zip [options] archive.zip file1 file2 dir1 dir2
+```
+
+Some common `zip` options are:
+
+-   `-r`: This option tells `zip` to include all files and subdirectories in the specified directories in the archive recursively.
+-   `-q`: This option tells `zip` to operate in quiet mode, without displaying any status messages.
+-   `-9`: This option tells `zip` to use the maximum compression level (best compression) when creating the archive.
+
+-------------
+
+## tar - compress files
+
+The `tar` command in Linux is a command-line tool that is used to create and manipulate tar archives, which are a type of compressed archive that can contain multiple files and directories (**similar to ZIP in Windows**).
+
+The basic syntax of the `tar` command is:
+
+```linux
+tar [options] archive files/directories
+```
+
+Some common `tar` options are:
+
+-   `-c`: This option creates a new archive.
+-   `-x`: This option extracts the contents of an archive.
+-   `-v`: This option displays verbose output, which shows the progress of the operation and the files being processed.
+-   `-f`: This option specifies the name of the archive file.
+-   `-z`: This option compresses the archive using gzip.
+-   `-j`: This option compresses the archive using bzip2.
+
+To create a new archive, you can use the `tar` command like this:
+
+```linux
+tar -cvf archive.tar files/directories
+```
+
+If you want to extract the contents of an archive, you can use the `tar` command like this:
+
+```linux
+tar -xvf archive.tar
+```

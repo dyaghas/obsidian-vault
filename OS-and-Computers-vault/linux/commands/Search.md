@@ -61,3 +61,74 @@ Here are some common options that you can use with the `cat` command:
 -   `-b`: Number non-blank output lines.
 
 ------------
+
+## locate
+
+The `locate` command in Linux is a command-line tool that is used to find files on the file system based on their name. It works by searching a pre-built database of all files and directories on the file system. This database is usually updated daily by a system process called `updatedb`.
+
+The basic syntax of the `locate` command is:
+
+```linux
+locate [options] filename_pattern
+```
+
+Some common `locate` options are:
+
+-   `-i`: This option makes the search case-insensitive.
+
+-   `-c`: This option displays the number of matching files instead of their names.
+
+-   `-r`: This option allows you to use regular expressions in the search pattern.
+
+*This command needs to be downloaded for it to work*
+
+-------------
+
+## head - outputs first ten lines of a text
+
+The `head` command in Linux is a command-line tool that is used to display the first few lines of a file.
+
+The basic syntax of the `head` command is:
+
+```linux
+head [options] [file]
+```
+
+Some common `head` options are:
+
+-   `-n`: This option specifies the number of lines to display. For example, `head -n 5 file.txt` will display the first 5 lines of `file.txt`.
+
+-   `-c`: This option specifies the number of bytes to display. For example, `head -c 100 file.txt` will display the first 100 bytes of `file.txt`.
+
+To display the first few lines of a file, you can simply use the `head` command, like this:
+
+```linux
+head file.txt
+```
+
+**Similarly, the `tail` command can be used to output the last 10 lines of a file**
+
+- `-f`: This option continuously displays the last few lines of a file as it grows, similar to the `tail -f` command.
+
+-----------
+
+## diff - difference between two file contents
+
+The `diff` command in Linux is a command-line tool that is used to compare two files or directories and display the differences between them.
+
+The basic syntax of the `diff` command is:
+
+```linux
+diff [options] file1 file2
+```
+
+Some common `diff` options are:
+
+-   `-q`: This option only displays whether the files differ, without showing the actual differences.
+
+-   `-r`: This option compares directories recursively.
+
+-   `-u`: This option displays the differences in a unified format, which shows both the old and new contents of the files.
+
+---------------
+

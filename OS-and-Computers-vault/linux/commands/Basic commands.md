@@ -1,5 +1,23 @@
 #linux_commands
 
+## man - manual for a command or topic explanation
+
+The `man` command in Linux is used to display the manual pages for a command or topic. It provides documentation and usage information for almost all commands, utilities, and system calls in Linux.
+
+The basic syntax of the `man` command is:
+
+```linux
+man [options] [command/topic]
+```
+
+Some common `man` options are:
+
+-   `-f`: This option displays a brief description of the specified command or topic.
+-   `-k`: This option searches the manual pages for a given keyword.
+-   `-w`: This option displays the location of the manual page file for a given command or topic.
+
+--------------
+
 ## cancel a command
 
 In Linux, you can cancel a running command or process using the `Ctrl + C` key combination. This will send a SIGINT signal to the running command or process, which will typically cause it to terminate.
@@ -30,93 +48,6 @@ kill -9 [process_id]
 
 -------------------------
 
-## useradd
-
-The `useradd` command is a Linux command used to create a new user account. It is usually used with root privileges, as only the root user can create new user accounts on a system.
-
-The basic syntax of the `useradd` command is:
-
-```linux
-useradd [options] username
-```
-
-Some common options used with `useradd` are:
-
--   `-m`: Creates a home directory for the new user.
--   `-s`: Specifies the default shell for the new user.
--   `-G`: Adds the new user to one or more secondary groups.
-
-For example, to create a new user named "john" with a home directory and the bash shell, you can use the following command:
-
-```linux
-sudo useradd -m -s /bin/bash john
-```
-
-After running this command, you should set a password for the new user with the `passwd` command:
-
-```linux
-sudo passwd john
-```
-
-------------
-
-## passwd - password
-
-The `passwd` command in Linux is used to change the password of a user account. By default, the `passwd` command can only be run by the root user or by the user who owns the account.
-
-The basic syntax of the `passwd` command is:
-
-```linux
-passwd [options] [ username]
-```
-
-The `passwd` command also provides various options that you can use to customize its behavior. Some common options include:
-
--   `-l`: Locks the password of the specified user account.
--   `-u`: Unlocks the password of the specified user account.
--   `-d`: Deletes the password of the specified user account.
--   `-S`: Displays the status of the password for the specified user account.
-
-------------
-
-## su - switch user
-
-The `su` command in Linux is used to switch to another user account or to run a command with a different user's permissions. By default, the `su` command allows you to switch to the root user account, but you can also switch to other user accounts if you have the necessary permissions.
-
-The basic syntax of the `su` command is:
-
-```linux
-su [options] [username]
-```
-
-Where `username` is the name of the user account that you want to switch to. If you do not specify a username, the `su` command will switch to the root user account by default.
-
-To switch to the root user account, you can simply run the `su` command without any arguments:
-
------------------------
-
-## ssh
-
-The SSH command in Linux is used to establish a secure encrypted connection between two systems over an insecure network. SSH stands for "Secure Shell" and it is a network protocol that provides a secure way to access remote systems.
-
-The syntax of the SSH command in Linux is as follows:
-
-```linux
-ssh [options] [user@]hostname [command]
-```
-
-Here, `[options]` are any command-line options you want to pass to the SSH command. `[user@]hostname` specifies the remote system you want to connect to. If you don't specify a username, the command will use your local username. Finally, `[command]` is an optional command to execute on the remote system after connecting.
-
-For example, to connect to a remote system with the hostname "example.com" using the default username and run the command "ls -l" on the remote system, you can use the following SSH command:
-
-```linux
-ssh example.com ls -l
-```
-
-When you run the command, SSH will prompt you for the password for the remote system's user account. If you have set up SSH key-based authentication, you may not need to enter a password. Once you enter the correct password, the SSH command will establish a secure connection and run the specified command on the remote system.
-
------------
-
 ## clear - clear terminal
 
 In Linux, the `clear` command is used to clear the terminal screen. When you execute the `clear` command, it will clear the terminal screen, removing all the previous output from the terminal window.
@@ -126,6 +57,44 @@ The syntax of the `clear` command is as follows:
 ```linux
 clear
 ```
+
+----------------
+
+## history - lists up to 500 previously executed commands
+
+```linux
+history
+```
+
+Some common `history` options are:
+
+-   `-c`: clears the complete history list.
+-   `-d`: offset deletes the history entry at the **OFFSET** position.
+-   `-a`: appends history lines.
+
+---------------
+
+# uname - Unix Name
+
+The `uname` command in Linux is used to print system information. It stands for "Unix Name".
+
+The basic syntax of the `uname` command is:
+
+```linux
+uname [options]
+```
+
+Some common `uname` options are:
+
+-   `-a`: This option prints all system information.
+-   `-s`: This option prints the system name.
+-   `-n`: This option prints the node name (the name of the machine).
+-   `-r`: This option prints the kernel release.
+-   `-v`: This option prints the kernel version.
+-   `-m`: This option prints the machine hardware name.
+-   `-p`: This option prints the processor type or "unknown" if it cannot be determined.
+-   `-i`: This option prints the hardware platform or "unknown" if it cannot be determined.
+-   `-o`: This option prints the operating system name.
 
 -------------------------
 
@@ -211,11 +180,8 @@ Where `options` are used to customize the behavior of the command, and `file(s)`
 Some common `cat` options are:
 
 -   `-n`: This option numbers all the output lines.
-
 -   `-b`: This option numbers only the non-blank output lines.
-
 -   `-s`: This option squeezes multiple consecutive blank lines into a single line.
-
 -   `-v`: This option displays non-printing characters as visible characters.
 
 To display the contents of a file, you can simply use the `cat` command followed by the file name, like this:
@@ -246,5 +212,7 @@ This command will concatenate the contents of `file1`, `file2`, and `file3`, and
 
 ------------------------
 
-[[commands - manipulate files]]
-[[commands - search]]
+[[Connection]]
+[[System information]]
+[[Manipulate files]]
+[[Search]]

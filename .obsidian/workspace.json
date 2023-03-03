@@ -14,6 +14,42 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "3ef12d8c328fbe9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS-and-Computers-vault/linux/commands/Manipulate files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47ad5877762eedd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS-and-Computers-vault/linux/commands/Basic commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "691c7ba2dc12c998",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS-and-Computers-vault/linux/commands/System information.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -44,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "user",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +176,18 @@
   },
   "active": "9ca38df1d29b9b90",
   "lastOpenFiles": [
+    "OS-and-Computers-vault/linux/commands/Manipulate files.md",
+    "OS-and-Computers-vault/linux/commands/Basic commands.md",
+    "OS-and-Computers-vault/linux/commands/System information.md",
+    "OS-and-Computers-vault/linux/commands/Connection.md",
+    "OS-and-Computers-vault/linux/commands/Search.md",
+    "OS-and-Computers-vault/linux/commands",
+    "Java-vault/OOP_pillars/Polymorphism.md",
     "Java-vault/theory/User input.md",
     "Java-vault/basics/Variable.md",
     "SQL-vault/ERD.md",
     "OS-and-Computers-vault/system/memory/non-volatile-memory/HDD.md",
     "OS-and-Computers-vault/system/memory/non-volatile-memory/SSD.md",
-    "OS-and-Computers-vault/linux/Basic commands.md",
-    "OS-and-Computers-vault/linux/commands - manipulate files.md",
     "Java-vault/algorithms/Sorting algorithms/Bubble Sort.md",
     "Java-vault/algorithms/Sorting algorithms/Selection Sort.md",
     "Java-vault/algorithms/Sorting algorithms/Insertion Sort.md",
@@ -164,11 +205,7 @@
     "Java-vault/OOP_pillars/Inheritance.md",
     "OS-and-Computers-vault/system",
     "OS-and-Computers-vault/system/memory/volatile-memory",
-    "OS_and_Computers_vault/linux/memory/non-volatile.md",
     "OS-and-Computers-vault/system/memory/non-volatile-memory",
-    "OS-and-Computers-vault/system/memory/volatile-memory/Volatile memory.md",
-    "Java-vault/basics/Method.md",
-    "OS-and-Computers-vault/system/memory/Memory.md",
     "OS-and-Computers-vault/system/memory",
     "images/kernel-layout-img.png",
     "Pasted image 20230301000643.png",
