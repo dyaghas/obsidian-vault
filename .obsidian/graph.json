@@ -43,7 +43,7 @@
       }
     },
     {
-      "query": "java",
+      "query": "file:java",
       "color": {
         "a": 1,
         "rgb": 16768256
@@ -94,14 +94,14 @@
   ],
   "collapse-display": true,
   "showArrow": false,
-  "textFadeMultiplier": -1.8,
+  "textFadeMultiplier": -2.5,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.682291666666667,
-  "repelStrength": 16.25,
+  "centerStrength": 0.505208333333333,
+  "repelStrength": 12.3958333333333,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.2588386562181773,
+  "scale": 0.2588386562181869,
   "close": true
 }
