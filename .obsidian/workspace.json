@@ -16,36 +16,12 @@
             }
           },
           {
-            "id": "3ef12d8c328fbe9d",
+            "id": "f6ebc69b95cc474a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS-and-Computers-vault/linux/commands/Manipulate files.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47ad5877762eedd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS-and-Computers-vault/linux/commands/Basic commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "691c7ba2dc12c998",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS-and-Computers-vault/linux/commands/System information.md",
+                "file": "Foreign key.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "user",
+                "query": "scan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 224.5
   },
   "right": {
     "id": "281a2c4e0fd4c204",
@@ -176,6 +152,18 @@
   },
   "active": "9ca38df1d29b9b90",
   "lastOpenFiles": [
+    "Java-vault/theory/User input.md",
+    "Java-vault/basics/Method.md",
+    "Primary key.md",
+    "Foreign key.md",
+    "SQL-vault/SQL.md",
+    "SQL-vault/Database.md",
+    "OS-and-Computers-vault/system/memory/Virtual Memory.md",
+    "OS-and-Computers-vault/system/memory/Memory.md",
+    "OS-and-Computers-vault/linux/Bootloader.md",
+    "OS-and-Computers-vault/system/memory/volatile-memory/RAM.md",
+    "Java-vault/OOP_pillars/Inheritance.md",
+    "Java-vault/theory/Memory models.md",
     "OS-and-Computers-vault/linux/commands/Manipulate files.md",
     "OS-and-Computers-vault/linux/commands/Basic commands.md",
     "OS-and-Computers-vault/linux/commands/System information.md",
@@ -183,7 +171,6 @@
     "OS-and-Computers-vault/linux/commands/Search.md",
     "OS-and-Computers-vault/linux/commands",
     "Java-vault/OOP_pillars/Polymorphism.md",
-    "Java-vault/theory/User input.md",
     "Java-vault/basics/Variable.md",
     "SQL-vault/ERD.md",
     "OS-and-Computers-vault/system/memory/non-volatile-memory/HDD.md",
@@ -192,17 +179,6 @@
     "Java-vault/algorithms/Sorting algorithms/Selection Sort.md",
     "Java-vault/algorithms/Sorting algorithms/Insertion Sort.md",
     "Java-vault/algorithms/Searching algorithms/Searching algorithms.md",
-    "SQL-vault/Database.md",
-    "OS-and-Computers-vault/system/Kernel.md",
-    "OS-and-Computers-vault/system/UI.md",
-    "Java-vault/theory/Data structure.md",
-    "OS-and-Computers-vault/system/memory/non-volatile-memory/Non-volatile memory.md",
-    "Java-vault/theory/Recursion.md",
-    "Java-vault/algorithms/Sorting algorithms/Sorting algorithms.md",
-    "Java-vault/basics/Data type.md",
-    "Java-vault/algorithms/Sorting algorithms/QuickSort.md",
-    "Java-vault/Java.md",
-    "Java-vault/OOP_pillars/Inheritance.md",
     "OS-and-Computers-vault/system",
     "OS-and-Computers-vault/system/memory/volatile-memory",
     "OS-and-Computers-vault/system/memory/non-volatile-memory",

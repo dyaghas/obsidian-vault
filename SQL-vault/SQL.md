@@ -24,3 +24,4 @@ In SQL, you can apply various constraints to the columns of a table to enforce d
 
 [Basic commands](SQL-vault/Basic%20commands.md)
 [[Database]]
+[[Primary key]]
