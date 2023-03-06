@@ -11,23 +11,28 @@
             "id": "9ca38df1d29b9b90",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git/Git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "f6ebc69b95cc474a",
+            "id": "9c9561b7fff7d14e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Foreign key.md",
+                "file": "Git/Basic commands.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Git/Basic commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Git/Basic commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Git/Basic commands.md"
+              }
             }
           }
         ]
@@ -150,14 +159,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ca38df1d29b9b90",
+  "active": "9c9561b7fff7d14e",
   "lastOpenFiles": [
-    "Java-vault/theory/User input.md",
-    "Java-vault/basics/Method.md",
     "Primary key.md",
     "Foreign key.md",
+    "Git/Git.md",
+    "Git/Basic commands.md",
+    "Git",
+    "SQL-vault/Basic commands.md",
+    "SQL-vault/Foreign key.md",
     "SQL-vault/SQL.md",
     "SQL-vault/Database.md",
+    "Java-vault/theory/User input.md",
+    "Java-vault/basics/Method.md",
+    "SQL-vault/Primary key.md",
     "OS-and-Computers-vault/system/memory/Virtual Memory.md",
     "OS-and-Computers-vault/system/memory/Memory.md",
     "OS-and-Computers-vault/linux/Bootloader.md",
@@ -174,11 +189,6 @@
     "Java-vault/basics/Variable.md",
     "SQL-vault/ERD.md",
     "OS-and-Computers-vault/system/memory/non-volatile-memory/HDD.md",
-    "OS-and-Computers-vault/system/memory/non-volatile-memory/SSD.md",
-    "Java-vault/algorithms/Sorting algorithms/Bubble Sort.md",
-    "Java-vault/algorithms/Sorting algorithms/Selection Sort.md",
-    "Java-vault/algorithms/Sorting algorithms/Insertion Sort.md",
-    "Java-vault/algorithms/Searching algorithms/Searching algorithms.md",
     "OS-and-Computers-vault/system",
     "OS-and-Computers-vault/system/memory/volatile-memory",
     "OS-and-Computers-vault/system/memory/non-volatile-memory",
