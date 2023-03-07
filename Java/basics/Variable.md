@@ -30,4 +30,4 @@ A variable cannot be accessed outside of it's [scope](Scope.md).
 
 -------------
 
-To learn how to get user input, see [user input](<User input>)
+To learn how to get user input, see [user input](<theory/User%20input.md>)

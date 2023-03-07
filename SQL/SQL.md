@@ -22,6 +22,6 @@ In SQL, you can apply various constraints to the columns of a table to enforce d
 
 7.  INDEX: This constraint is used to create an index on a column to improve query performance.
 
-[Basic commands](SQL-vault/Basic%20commands.md)
+[Basic commands](SQL/Basic%20commands.md)
 [[Database]]
 [[Primary key]]

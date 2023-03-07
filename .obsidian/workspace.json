@@ -11,16 +11,12 @@
             "id": "9ca38df1d29b9b90",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Git.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "9c9561b7fff7d14e",
+            "id": "c7f77572188a2dab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Basic commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Basic commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Git/Basic commands.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,45 +150,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c9561b7fff7d14e",
+  "active": "9ca38df1d29b9b90",
   "lastOpenFiles": [
-    "Primary key.md",
-    "Foreign key.md",
-    "Git/Git.md",
     "Git/Basic commands.md",
+    "Java/theory/Data structure.md",
+    "Java/algorithms/Searching algorithms/Searching algorithms.md",
+    "Java/basics/Data type.md",
+    "Git/Git.md",
+    "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
+    "Java/basics/Variable.md",
+    "Java/theory/User input.md",
+    "theory",
+    "SQL/Basic commands.md",
+    "Foreign key.md",
+    "SQL/Foreign key.md",
+    "Primary key.md",
     "Git",
-    "SQL-vault/Basic commands.md",
-    "SQL-vault/Foreign key.md",
-    "SQL-vault/SQL.md",
-    "SQL-vault/Database.md",
-    "Java-vault/theory/User input.md",
-    "Java-vault/basics/Method.md",
-    "SQL-vault/Primary key.md",
-    "OS-and-Computers-vault/system/memory/Virtual Memory.md",
-    "OS-and-Computers-vault/system/memory/Memory.md",
-    "OS-and-Computers-vault/linux/Bootloader.md",
-    "OS-and-Computers-vault/system/memory/volatile-memory/RAM.md",
-    "Java-vault/OOP_pillars/Inheritance.md",
-    "Java-vault/theory/Memory models.md",
-    "OS-and-Computers-vault/linux/commands/Manipulate files.md",
-    "OS-and-Computers-vault/linux/commands/Basic commands.md",
-    "OS-and-Computers-vault/linux/commands/System information.md",
-    "OS-and-Computers-vault/linux/commands/Connection.md",
-    "OS-and-Computers-vault/linux/commands/Search.md",
-    "OS-and-Computers-vault/linux/commands",
-    "Java-vault/OOP_pillars/Polymorphism.md",
-    "Java-vault/basics/Variable.md",
-    "SQL-vault/ERD.md",
-    "OS-and-Computers-vault/system/memory/non-volatile-memory/HDD.md",
-    "OS-and-Computers-vault/system",
-    "OS-and-Computers-vault/system/memory/volatile-memory",
-    "OS-and-Computers-vault/system/memory/non-volatile-memory",
-    "OS-and-Computers-vault/system/memory",
+    "SQL/SQL.md",
+    "SQL/Database.md",
+    "Java/basics/Method.md",
+    "SQL/Primary key.md",
+    "OS-and-Computers/system/memory/Virtual Memory.md",
+    "OS-and-Computers/system/memory/Memory.md",
+    "OS-and-Computers/linux/Bootloader.md",
+    "OS-and-Computers/system/memory/volatile-memory/RAM.md",
+    "Java/OOP_pillars/Inheritance.md",
+    "Java/theory/Memory models.md",
+    "OS-and-Computers/linux/commands/Manipulate files.md",
+    "OS-and-Computers/linux/commands/Basic commands.md",
+    "OS-and-Computers/linux/commands/System information.md",
+    "OS-and-Computers/linux/commands/Connection.md",
+    "OS-and-Computers/linux/commands",
+    "OS-and-Computers/system",
+    "OS-and-Computers/system/memory/volatile-memory",
+    "OS-and-Computers/system/memory/non-volatile-memory",
+    "OS-and-Computers/system/memory",
     "images/kernel-layout-img.png",
     "Pasted image 20230301000643.png",
-    "OS-and-Computers-vault/linux",
+    "OS-and-Computers/linux",
     "OS_and_Computers_vault/commands - create",
-    "SQL-vault",
-    "OS-and-Computers-vault"
+    "SQL"
   ]
 }
