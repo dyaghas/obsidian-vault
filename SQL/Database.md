@@ -6,4 +6,4 @@ Databases typically consist of one or more tables that are composed of rows and 
 
 Databases can be managed using database management systems (DBMS) such as MySQL, Oracle, Microsoft SQL Server, PostgreSQL, and many others. These systems provide tools for creating, updating, and querying databases, as well as enforcing data integrity and security.
 
-[[ERD]]
+[[ER Model]]

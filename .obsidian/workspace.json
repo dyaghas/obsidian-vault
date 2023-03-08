@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scan",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,11 +140,22 @@
   },
   "active": "9ca38df1d29b9b90",
   "lastOpenFiles": [
+    "SQL/ER Model.md",
+    "Java/theory/UML diagram.md",
+    "Java/basics/Class.md",
+    "images/erm/erm-entity-image.png",
+    "images/erm",
+    "images/erm/erm-primary-key.png",
+    "images/erm-attribute.png",
+    "images/erm/erm-relationship.png",
+    "OS-and-Computers/linux/commands/Basic commands.md",
+    "Git/Basic commands.md",
+    "Git/Local changes.md",
+    "Git/Remote changes.md",
     "OS-and-Computers/system/Operating System.md",
     "Java/algorithms/Sorting algorithms/QuickSort.md",
     "OS-and-Computers/system/memory/Memory.md",
     "OS-and-Computers/system/memory/Virtual Memory.md",
-    "Git/Basic commands.md",
     "Java/theory/Data structure.md",
     "Java/algorithms/Searching algorithms/Searching algorithms.md",
     "Java/basics/Data type.md",
@@ -162,12 +173,6 @@
     "SQL/Database.md",
     "Java/basics/Method.md",
     "SQL/Primary key.md",
-    "OS-and-Computers/linux/Bootloader.md",
-    "OS-and-Computers/system/memory/volatile-memory/RAM.md",
-    "Java/OOP_pillars/Inheritance.md",
-    "Java/theory/Memory models.md",
-    "OS-and-Computers/linux/commands/Manipulate files.md",
-    "OS-and-Computers/linux/commands/Basic commands.md",
     "OS-and-Computers/linux/commands",
     "OS-and-Computers/system",
     "OS-and-Computers/system/memory/volatile-memory",
@@ -176,7 +181,6 @@
     "images/kernel-layout-img.png",
     "Pasted image 20230301000643.png",
     "OS-and-Computers/linux",
-    "OS_and_Computers_vault/commands - create",
-    "SQL"
+    "OS_and_Computers_vault/commands - create"
   ]
 }
