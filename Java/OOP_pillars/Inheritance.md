@@ -28,6 +28,8 @@ Likewise, an array of Person can store student objects.
 
 You can think of it like reference - template instead of reference - object. See [[Narrowing]] for more information
 
-*The parent is called superclass and the child is called subclass.*
+- The parent is called superclass and the child is called subclass.
 
-*Classes with the `final` keyword cannot be inherited from.*
+- Classes with the `final` keyword cannot be inherited from.
+
+- [[Composition]] is another well known way of achieving code reusability

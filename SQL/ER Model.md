@@ -30,3 +30,5 @@ The attribute is used to describe the property of an entity. It is represented b
 - `Primary key`: a special attribute with a unique value that identifies an instance of an entity. Every entity must have a primary key, which is represented by a black circle.
 
 ![[erm-primary-key.png]]
+
+- `Foreign key`: a column that references the `primary key` of another table. Through this reference, it is possible to establish a connection between a car and its owner in a database, for example. In an `Entity Relationship Model`, a foreign key is represented as an attribute in the entity that contains it in a 1:N or N:N relationship.
