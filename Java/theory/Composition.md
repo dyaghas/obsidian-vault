@@ -1,6 +1,6 @@
 #theory 
 
-Composition is another aproach to achieve code reuse in objeect-oriented programming. As a counterpart to [[inheritance]], it creates a `has-a` relationship between classes and is more flexible as its objective is achieved through objects instead of classes and subclasses, meaning that it allows composition in different ways that can achieve different behaviors.
+Composition is another aproach to achieve code reuse in object-oriented programming. As a counterpart to [[inheritance]], it creates a `has-a` relationship between classes and is more flexible as its goal is achieved through objects instead of classes and subclasses, meaning that it allows composition in different ways that can achieve different behaviors.
 
 Here's an example of implementing composition in Java:
 
