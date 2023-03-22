@@ -69,6 +69,8 @@ DELETE FROM table_name WHERE condition;
 
 ## ALTER TABLE
 
+#### ALTER COLUMN
+
 To alter an existing column in a table, you can use the ALTER TABLE statement with the ALTER COLUMN clause. The basic syntax for altering a column is as follows:
 
 ```sql
@@ -83,9 +85,21 @@ For example, if we have a table called `customers` with a column called `phone` 
 ALTER TABLE customers ALTER COLUMN phone varchar(30);
 ```
 
+#### ADD COLUMN
+
+To add a column to a table, you can use the ALTER TABLE statement with the ADD COLUMN keyword. Here is an example of how to add a column to a table:
+
+```SQL
+ALTER TABLE orders ADD COLUMN order_date DATE;
+```
+
+In this example, we are adding a new column called "order_date" to the "orders" table. The data type of the column is specified after the column name, in this case it is DATE.
+
+You can also specify other column properties such as NOT NULL, DEFAULT value, or UNIQUE constraints when adding a column.
+
 ----------------------
 
-## RENAME COLUMN
+#### RENAME COLUMN
 
 To change the name of an existing column in a table, you can use the ALTER TABLE statement with the RENAME COLUMN clause. The basic syntax for renaming a column is as follows:
 
