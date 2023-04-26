@@ -11,26 +11,24 @@ ArrayList<String> arrayListName = new ArrayList<String>();
 ```
 
 
-Add item:
+### Useful methods
 
+Add item
 ```Java
 arrayListName.add(value);
 ```
 
-Access item:
-
+Access item
 ```Java
 arrayListName.get(index);
 ```
 
-Modify item:
-
+Modify item
 ```Java
 arrayListName.set(index, newValue);
 ```
 
-Remove item:
-
+Remove item
 ```Java
 arrayListName.remove(index);
 ```
