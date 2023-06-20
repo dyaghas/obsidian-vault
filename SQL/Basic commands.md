@@ -2,11 +2,19 @@
 
 Here you can find some basic commands in SQL.
 
+## CREATE DATABASE
+
+The SQL CREATE DATABASE command is used to create a new table in a relational database.
+
+```SQL
+CREATE DATABASE database_name;
+```
+
+----------------------
+
 ## CREATE TABLE
 
 The SQL CREATE TABLE command is used to create a new table in a relational database. 
-
-The basic syntax of the this command is as follows:
 
 ```sql
 CREATE TABLE table_name ( column1 datatype constraints, 
@@ -22,8 +30,6 @@ CREATE TABLE table_name ( column1 datatype constraints,
 
 The SQL INSERT command is used to add new rows of data into a table. 
 
-The basic syntax of this command is as follows:
-
 ```sql
 INSERT INTO table_name (column1, column2, column3, ...) 
 VALUES (value1, value2, value3, ...);
@@ -33,7 +39,7 @@ VALUES (value1, value2, value3, ...);
 
 ## SELECT
 
-The SQL SELECT statement is used to retrieve data from one or more tables in a database. The basic syntax of the this statement is as follows:
+The SQL SELECT statement is used to retrieve data from one or more tables in a database.
 
 ```sql
 SELECT column1, column2, ... FROM table_name WHERE condition;
@@ -49,7 +55,7 @@ SELECT COUNT(*) AS num_customers FROM customers;
 
 ## UPDATE
 
-The SQL UPDATE statement is used to modify existing data in one or more rows of a table. The basic syntax of this statement is as follows:
+The SQL UPDATE statement is used to modify existing data in one or more rows of a table.
 
 ```sql
 UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
@@ -59,7 +65,7 @@ UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;
 
 ## DELETE
 
-The SQL DELETE statement is used to remove one or more rows from a table. The basic syntax of the DELETE statement is as follows:
+The SQL DELETE statement is used to remove one or more rows from a table.
 
 ```sql
 DELETE FROM table_name WHERE condition;
@@ -71,7 +77,7 @@ DELETE FROM table_name WHERE condition;
 
 #### ALTER COLUMN
 
-To alter an existing column in a table, you can use the ALTER TABLE statement with the ALTER COLUMN clause. The basic syntax for altering a column is as follows:
+To alter an existing column in a table, you can use the ALTER TABLE statement with the ALTER COLUMN clause.
 
 ```sql
 ALTER TABLE table_name ALTER COLUMN column_name data_type;
@@ -87,7 +93,7 @@ ALTER TABLE customers ALTER COLUMN phone varchar(30);
 
 #### ADD COLUMN
 
-To add a column to a table, you can use the ALTER TABLE statement with the ADD COLUMN keyword. Here is an example of how to add a column to a table:
+To add a column to a table, you can use the ALTER TABLE statement with the ADD COLUMN keyword.
 
 ```SQL
 ALTER TABLE orders ADD COLUMN order_date DATE;
@@ -101,7 +107,7 @@ You can also specify other column properties such as NOT NULL, DEFAULT value, or
 
 #### RENAME COLUMN
 
-To change the name of an existing column in a table, you can use the ALTER TABLE statement with the RENAME COLUMN clause. The basic syntax for renaming a column is as follows:
+To change the name of an existing column in a table, you can use the ALTER TABLE statement with the RENAME COLUMN clause.
 
 ```sql
 ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
@@ -111,7 +117,7 @@ ALTER TABLE table_name RENAME COLUMN old_column_name TO new_column_name;
 
 ## DROP
 
-The SQL DROP statement is used to delete an existing database, table, index, view, or other object in a database. The basic syntax of the DROP statement is as follows:
+The SQL DROP statement is used to delete an existing database, table, index, view, or other object in a database.
 
 ```sql
 DROP object_type object_name

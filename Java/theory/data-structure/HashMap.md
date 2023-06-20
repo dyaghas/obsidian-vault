@@ -1,3 +1,5 @@
+#data_structure 
+
 It stores items in **key / value** pairs that can be accessed by a String index, for example. One object is used as a key (index) to another object (value). Keys and values don't have to store data of the same type, a `HashMap` can have a int key and a String value, for example.
 
 ![[Pasted image 20230426132026.png]]

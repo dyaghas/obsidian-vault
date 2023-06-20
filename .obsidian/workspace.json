@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5437f918d30d56f7",
+            "id": "7332bd57a41e57aa",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,36 +16,36 @@
             }
           },
           {
-            "id": "a6c88c9268ef2cc5",
+            "id": "5437f918d30d56f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/theory/data-structure/LinkedList.md",
+                "file": "Web/Web.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bb2e465e832a529f",
+            "id": "5e7e2d53f34c069b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/theory/data-structure/ArrayList.md",
+                "file": "Web/CSS.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "71d88a97ec7c5435",
+            "id": "9076e6155dccdd54",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/theory/data-structure/HashMap.md",
+                "file": "Java/OOP_pillars/Abstraction.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "branch",
+                "query": "abstract",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,6 +94,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "e3b45e71396a2d50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -174,35 +182,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5437f918d30d56f7",
+  "active": "7332bd57a41e57aa",
   "lastOpenFiles": [
-    "Java/theory/data-structure/Data structure.md",
-    "Java/theory/data-structure/ArrayList.md",
-    "Java/theory/data-structure/LinkedList.md",
-    "Java/theory/data-structure/HashMap.md",
+    "Web/Web.md",
+    "HTTP.md",
+    "Internet.md",
+    "Java/OOP_pillars/Abstraction.md",
+    "Web/CSS.md",
+    "Web/HTML.md",
+    "SQL/Foreign key.md",
+    "OS-and-Computers/linux/commands/Manipulate files.md",
+    "Git/Remote changes.md",
+    "SQL/Primary key.md",
+    "SQL/Database.md",
+    "Java/algorithms/Searching algorithms/Sequential Search.md",
+    "Java/algorithms/Searching algorithms/Searching algorithms.md",
+    "Java/algorithms/Searching algorithms/Binary Search.md",
     "SQL/Basic commands.md",
+    "Java/Java.md",
+    "Java/OOP_pillars/Inheritance.md",
+    "Web",
+    "Java/OOP_pillars/Polymorphism.md",
+    "OS-and-Computers/linux/commands/Search.md",
+    "OS-and-Computers/linux/commands/Basic commands.md",
+    "Java/theory/data-structure/HashMap.md",
+    "Java/theory/data-structure/Queue.md",
+    "Java/theory/Narrowing.md",
+    "Java/OOP_pillars/Encapsulation.md",
+    "Java/basics/Package.md",
+    "Java/basics/Class.md",
     "Java/theory/data-structure",
     "images/Pasted image 20230426132026.png",
-    "Java/OOP_pillars/Abstraction.md",
-    "Git/Basic commands.md",
-    "theory/Data.md",
-    "Data.md",
-    "Java/basics/Class.md",
-    "Java/theory/data-structure/Queue.md",
-    "Java/basics/Scope.md",
-    "Java/theory/Memory models.md",
-    "Java/theory/Lambda expression.md",
-    "SQL/Database.md",
-    "Java/OOP_pillars/Polymorphism.md",
-    "Java/OOP_pillars/Inheritance.md",
-    "Java/basics/Variable.md",
-    "Java/basics/Access modifiers.md",
-    "Java/basics/Data type.md",
-    "SQL/ER Model.md",
-    "SQL/Foreign key.md",
-    "Git/Local changes.md",
-    "Git/Remote changes.md",
-    "SQL/SQL.md",
     "images/erm/erm-entity-image.png",
     "images/erm",
     "images/erm/erm-primary-key.png",
@@ -216,7 +226,6 @@
     "OS-and-Computers/system/memory/non-volatile-memory",
     "OS-and-Computers/system/memory",
     "images/kernel-layout-img.png",
-    "Pasted image 20230301000643.png",
-    "OS-and-Computers/linux"
+    "Pasted image 20230301000643.png"
   ]
 }

@@ -26,7 +26,7 @@ Person p = new Student();
 
 Likewise, an array of Person can store student objects.
 
-You can think of it like reference - template instead of reference - object. See [[Narrowing]] for more information
+You can think of it like `reference - template` instead of `reference - object`. See [[Narrowing]] for more information
 
 - The parent is called superclass and the child is called subclass.
 
