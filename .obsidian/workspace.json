@@ -4,15 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "8d708a50e35f94dd",
+        "id": "931a7d173b905ca3",
         "type": "tabs",
         "children": [
           {
-            "id": "7332bd57a41e57aa",
+            "id": "2e7b045601f56359",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "2e9fad62203371f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/theory/data-structure/Data structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c883558fb86e525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C/C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8eecf532938502dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Java.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -146,8 +182,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7332bd57a41e57aa",
+  "active": "2e7b045601f56359",
   "lastOpenFiles": [
+    "C/C.md",
+    "Java/theory/data-structure/Data structure.md",
+    "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
+    "Java/basics/Data type.md",
+    "Java/theory/data-structure/hash function.md",
+    "Java/theory/data-structure/Stack.md",
+    "Java/Java.md",
+    "Web/CSS.md",
+    "C",
     "images/table-atividade-innerjoin.png",
     "OS-and-Computers/system/memory/volatile-memory/RAM.md",
     "OS-and-Computers/system/memory/non-volatile-memory/Non-volatile memory.md",
@@ -157,7 +202,6 @@
     "HTTP.md",
     "Internet.md",
     "Java/OOP_pillars/Abstraction.md",
-    "Web/CSS.md",
     "Web/HTML.md",
     "SQL/Foreign key.md",
     "OS-and-Computers/linux/commands/Manipulate files.md",
@@ -167,15 +211,9 @@
     "Java/algorithms/Searching algorithms/Sequential Search.md",
     "Java/algorithms/Searching algorithms/Searching algorithms.md",
     "Java/algorithms/Searching algorithms/Binary Search.md",
-    "Java/Java.md",
     "Java/OOP_pillars/Inheritance.md",
     "Web",
     "Java/OOP_pillars/Polymorphism.md",
-    "OS-and-Computers/linux/commands/Search.md",
-    "OS-and-Computers/linux/commands/Basic commands.md",
-    "Java/theory/data-structure/HashMap.md",
-    "Java/theory/data-structure/Queue.md",
-    "Java/theory/Narrowing.md",
     "Java/theory/data-structure",
     "images/Pasted image 20230426132026.png",
     "images/erm/erm-entity-image.png",
@@ -189,7 +227,6 @@
     "OS-and-Computers/system",
     "OS-and-Computers/system/memory/volatile-memory",
     "OS-and-Computers/system/memory/non-volatile-memory",
-    "OS-and-Computers/system/memory",
     "images/kernel-layout-img.png",
     "Pasted image 20230301000643.png"
   ]

@@ -5,97 +5,97 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "#data_structure",
       "color": {
         "a": 1,
-        "rgb": 16514648
+        "rgb": 16194845
       }
     },
     {
       "query": "#algorithm",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16596799
       }
     },
     {
       "query": "#basics",
       "color": {
         "a": 1,
-        "rgb": 7362560
+        "rgb": 10901271
       }
     },
     {
       "query": "#theory",
       "color": {
         "a": 1,
-        "rgb": 16753152
+        "rgb": 15248166
       }
     },
     {
       "query": "#oop",
       "color": {
         "a": 1,
-        "rgb": 12430592
+        "rgb": 12027679
       }
     },
     {
       "query": "file:java",
       "color": {
         "a": 1,
-        "rgb": 16768256
+        "rgb": 16514826
       }
     },
     {
-      "query": "file:Linux",
+      "query": "file:linux",
       "color": {
         "a": 1,
-        "rgb": 2454772
+        "rgb": 2394613
       }
     },
     {
       "query": "#linux_commands",
       "color": {
         "a": 1,
-        "rgb": 37375
+        "rgb": 6071295
       }
     },
     {
       "query": "#memory-type",
       "color": {
         "a": 1,
-        "rgb": 11271849
+        "rgb": 4257655
       }
     },
     {
       "query": "#system",
       "color": {
         "a": 1,
-        "rgb": 2277172
+        "rgb": 2938144
       }
     },
     {
       "query": "file:SQL",
       "color": {
         "a": 1,
-        "rgb": 12129525
+        "rgb": 12133871
       }
     },
     {
       "query": "#sql",
       "color": {
         "a": 1,
-        "rgb": 13984255
+        "rgb": 15226083
       }
     },
     {
       "query": "file:Git",
       "color": {
         "a": 1,
-        "rgb": 1155697
+        "rgb": 703840
       }
     },
     {
@@ -104,25 +104,18 @@
         "a": 1,
         "rgb": 5431473
       }
-    },
-    {
-      "query": "#web",
-      "color": {
-        "a": 1,
-        "rgb": 11068159
-      }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -2.5,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 0.77326909350464,
+  "lineSizeMultiplier": 0.997109207708779,
   "collapse-forces": false,
-  "centerStrength": 0.588541666666667,
-  "repelStrength": 20,
+  "centerStrength": 0.61134903640257,
+  "repelStrength": 12.7980014275517,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.22920135941751477,
-  "close": true
+  "linkDistance": 76,
+  "scale": 0.32133638605039994,
+  "close": false
 }
