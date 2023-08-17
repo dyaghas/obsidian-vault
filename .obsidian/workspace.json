@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e7b045601f56359",
+            "id": "2e9fad62203371f9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,24 +16,12 @@
             }
           },
           {
-            "id": "2e9fad62203371f9",
+            "id": "99b0f3058ea85c09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/theory/data-structure/Data structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c883558fb86e525",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C/C.md",
+                "file": "C/Memory Address.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,38 +170,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e7b045601f56359",
+  "active": "2e9fad62203371f9",
   "lastOpenFiles": [
+    "C/Memory Address.md",
+    "C/Pointer.md",
+    "Java/theory/data-structure/Queue.md",
+    "Java/algorithms/Sorting algorithms/Selection Sort.md",
+    "Java/algorithms/Sorting algorithms/MergeSort.md",
+    "Java/algorithms/Sorting algorithms/Insertion Sort.md",
+    "Java/algorithms/Searching algorithms/Binary Search.md",
     "C/C.md",
+    "Web/CSS.md",
+    "OS-and-Computers/system/memory/volatile-memory/Volatile memory.md",
+    "Web/HTML.md",
     "Java/theory/data-structure/Data structure.md",
+    "Java/Java.md",
+    "SQL/Basic commands.md",
     "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
     "Java/basics/Data type.md",
     "Java/theory/data-structure/hash function.md",
     "Java/theory/data-structure/Stack.md",
-    "Java/Java.md",
-    "Web/CSS.md",
     "C",
     "images/table-atividade-innerjoin.png",
     "OS-and-Computers/system/memory/volatile-memory/RAM.md",
     "OS-and-Computers/system/memory/non-volatile-memory/Non-volatile memory.md",
-    "SQL/Basic commands.md",
     "images/table-funcionario-innerjoin.png",
     "Web/Web.md",
     "HTTP.md",
     "Internet.md",
     "Java/OOP_pillars/Abstraction.md",
-    "Web/HTML.md",
     "SQL/Foreign key.md",
     "OS-and-Computers/linux/commands/Manipulate files.md",
-    "Git/Remote changes.md",
-    "SQL/Primary key.md",
-    "SQL/Database.md",
-    "Java/algorithms/Searching algorithms/Sequential Search.md",
-    "Java/algorithms/Searching algorithms/Searching algorithms.md",
-    "Java/algorithms/Searching algorithms/Binary Search.md",
-    "Java/OOP_pillars/Inheritance.md",
     "Web",
-    "Java/OOP_pillars/Polymorphism.md",
     "Java/theory/data-structure",
     "images/Pasted image 20230426132026.png",
     "images/erm/erm-entity-image.png",
