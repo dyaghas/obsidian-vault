@@ -16,6 +16,18 @@
             }
           },
           {
+            "id": "37815e41b98b3e3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS-and-Computers/system/memory/Memory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "99b0f3058ea85c09",
             "type": "leaf",
             "state": {
@@ -172,7 +184,16 @@
   },
   "active": "2e9fad62203371f9",
   "lastOpenFiles": [
+    "OS-and-Computers/system/Operating System.md",
+    "OS-and-Computers/linux/Bootloader.md",
+    "OS-and-Computers/system/memory/Memory.md",
+    "OS-and-Computers/system/memory/volatile-memory/Volatile memory.md",
+    "OS-and-Computers/system/memory/volatile-memory/Cache Memory.md",
+    "OS-and-Computers/system/memory/volatile-memory/RAM.md",
     "C/Memory Address.md",
+    "Pasted image 20230817214903.png",
+    "Pasted image 20230817214848.png",
+    "Java/Java.md",
     "C/Pointer.md",
     "Java/theory/data-structure/Queue.md",
     "Java/algorithms/Sorting algorithms/Selection Sort.md",
@@ -181,10 +202,8 @@
     "Java/algorithms/Searching algorithms/Binary Search.md",
     "C/C.md",
     "Web/CSS.md",
-    "OS-and-Computers/system/memory/volatile-memory/Volatile memory.md",
     "Web/HTML.md",
     "Java/theory/data-structure/Data structure.md",
-    "Java/Java.md",
     "SQL/Basic commands.md",
     "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
     "Java/basics/Data type.md",
@@ -192,15 +211,10 @@
     "Java/theory/data-structure/Stack.md",
     "C",
     "images/table-atividade-innerjoin.png",
-    "OS-and-Computers/system/memory/volatile-memory/RAM.md",
     "OS-and-Computers/system/memory/non-volatile-memory/Non-volatile memory.md",
     "images/table-funcionario-innerjoin.png",
     "Web/Web.md",
     "HTTP.md",
-    "Internet.md",
-    "Java/OOP_pillars/Abstraction.md",
-    "SQL/Foreign key.md",
-    "OS-and-Computers/linux/commands/Manipulate files.md",
     "Web",
     "Java/theory/data-structure",
     "images/Pasted image 20230426132026.png",
@@ -215,7 +229,6 @@
     "OS-and-Computers/system",
     "OS-and-Computers/system/memory/volatile-memory",
     "OS-and-Computers/system/memory/non-volatile-memory",
-    "images/kernel-layout-img.png",
-    "Pasted image 20230301000643.png"
+    "images/kernel-layout-img.png"
   ]
 }
