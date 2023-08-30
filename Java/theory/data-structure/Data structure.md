@@ -38,7 +38,7 @@ Data elements are not placed sequentially or linearly. The elements cannot be it
 
 **Ex: trees and graphs.**
 
-**Hash table**: stores values which have keys associated with each of them. Lookup is very efficient if the key associated with the value is known, irrespective of the table size. **Direct addressing** uses the one-to-one mapping between the values and keys when storing in a table. however, there is a problem with this approach when there is a large number o key-value pairs. The table will be huge with so mnay records and may be impractical or even impossible to be stored. To avoid this problem, a [[hash function]] is used.
+**Hash table**: stores values which have keys associated with each of them. Lookup is very efficient if the key associated with the value is known, irrespective of the table size. **Direct addressing** uses the one-to-one mapping between the values and keys when storing in a table. however, there is a problem with this approach when there is a large number o key-value pairs. The table will be huge with so many records and may be impractical or even impossible to be stored. To avoid this problem, a [[hash function]] is used.
 
 [[HashMap]]
 [[TreeMap]]
