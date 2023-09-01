@@ -1,3 +1,5 @@
+#sql 
+
 SQL (Structured Query Language) is a standard programming language that is used to manage and manipulate relational databases. It is the language used to communicate with and extract data from relational databases, and is a crucial component of most modern data-driven applications.
 
 SQL provides a standard set of commands for performing common database operations such as creating tables, inserting, updating, and deleting data, and retrieving data from one or more tables. It also includes advanced features for filtering, grouping, and aggregating data, as well as creating views, stored procedures, and triggers.

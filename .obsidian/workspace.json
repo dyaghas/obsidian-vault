@@ -8,55 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e9fad62203371f9",
+            "id": "0990a218490099a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mainframe/JCL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "531ab40958010893",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mainframe/USS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37815e41b98b3e3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS-and-Computers/system/memory/Memory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8eecf532938502dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Java.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mainframe/USS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mainframe/USS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mainframe/USS.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -191,10 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "531ab40958010893",
+  "active": "0990a218490099a1",
   "lastOpenFiles": [
-    "Mainframe/JCL.md",
+    "Mainframe/Mainframe.md",
     "Mainframe/USS.md",
+    "Mainframe/JCL.md",
+    "SQL/SQL.md",
+    "Git/Git.md",
+    "OS-and-Computers/linux/Linux.md",
+    "OS-and-Computers/linux/commands/Basic commands.md",
+    "Java/Java.md",
+    "Java/OOP_pillars/Abstraction.md",
+    "Java/OOP_pillars/Inheritance.md",
+    "Java/theory/data-structure/LinkedList.md",
+    "OS-and-Computers/system/memory/Memory.md",
     "Mainframe",
     "images/Pasted image 20230830143842.png",
     "images/Pasted image 20230830143525.png",
@@ -202,9 +167,7 @@
     "Pasted image 20230830143141.png",
     "images/Pasted image 20230817214848.png",
     "images/Pasted image 20230817214903.png",
-    "OS-and-Computers/system/memory/Memory.md",
     "C/Memory Address.md",
-    "Mainframe/Mainframe.md",
     "Java/theory/data-structure/Data structure.md",
     "Java/theory/data-structure/HashMap.md",
     "OS-and-Computers/system/memory/non-volatile-memory/Non-volatile memory.md",
@@ -214,18 +177,10 @@
     "OS-and-Computers/system/memory/volatile-memory/Volatile memory.md",
     "OS-and-Computers/system/memory/volatile-memory/Cache Memory.md",
     "OS-and-Computers/system/memory/volatile-memory/RAM.md",
-    "Java/Java.md",
     "C/Pointer.md",
     "Java/theory/data-structure/Queue.md",
     "Java/algorithms/Sorting algorithms/Selection Sort.md",
     "Java/algorithms/Sorting algorithms/MergeSort.md",
-    "Java/algorithms/Sorting algorithms/Insertion Sort.md",
-    "Java/algorithms/Searching algorithms/Binary Search.md",
-    "C/C.md",
-    "Web/CSS.md",
-    "Web/HTML.md",
-    "SQL/Basic commands.md",
-    "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
     "C",
     "images/table-atividade-innerjoin.png",
     "images/table-funcionario-innerjoin.png",

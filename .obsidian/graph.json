@@ -43,20 +43,6 @@
       }
     },
     {
-      "query": "file:java",
-      "color": {
-        "a": 1,
-        "rgb": 16514826
-      }
-    },
-    {
-      "query": "file:linux",
-      "color": {
-        "a": 1,
-        "rgb": 2394613
-      }
-    },
-    {
       "query": "#linux_commands",
       "color": {
         "a": 1,
@@ -78,24 +64,10 @@
       }
     },
     {
-      "query": "file:SQL",
-      "color": {
-        "a": 1,
-        "rgb": 12133871
-      }
-    },
-    {
       "query": "#sql",
       "color": {
         "a": 1,
         "rgb": 15226083
-      }
-    },
-    {
-      "query": "file:Git",
-      "color": {
-        "a": 1,
-        "rgb": 703840
       }
     },
     {
@@ -109,7 +81,14 @@
       "query": "#C",
       "color": {
         "a": 1,
-        "rgb": 668671
+        "rgb": 3709183
+      }
+    },
+    {
+      "query": "#mainframe",
+      "color": {
+        "a": 1,
+        "rgb": 13311
       }
     }
   ],
@@ -123,6 +102,6 @@
   "repelStrength": 15.5389007851535,
   "linkStrength": 1,
   "linkDistance": 76,
-  "scale": 0.3823010968770039,
-  "close": true
+  "scale": 0.3823010968770072,
+  "close": false
 }
