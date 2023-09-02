@@ -2,6 +2,8 @@
 
 Here you can find some basic commands in SQL.
 
+For more advanced commands, take a look at [[Commands]]
+
 ## CREATE DATABASE
 
 The SQL `CREATE DATABASE` command is used to create a new table in a relational database.
@@ -36,7 +38,6 @@ VALUES (value1, value2, value3, ...);
 ```
 
 ----------------
-
 ## SELECT
 
 The SQL `SELECT` statement is used to retrieve data from one or more tables in a database.
@@ -51,8 +52,42 @@ The `SELECT` statement can also be used with various SQL functions, such as COUN
 SELECT COUNT(*) AS num_customers FROM customers;
 ```
 
---------------------
+--------------
+### WHERE
 
+The `WHERE` clause is used in conjunction with the `SELECT` statement to filter rows from a table based on a specified condition. This clause allows you to specify a condition that must be met for a row to be included in the query result. Here's the basic syntax of the `SELECT` statement with a `WHERE` clause:
+
+```SQL
+SELECT column1, column2, ... 
+FROM table_name 
+WHERE condition;
+```
+
+The `WHERE` statement can implement different conditionals like:
+
+- Functions: LENGTH(), SUM(), AVG();
+- Logical operators: AND, OR, NOT;
+- Comparison operators: >, <, >=, <=;
+
+Those are only some examples.
+
+-----------------------------
+### LIKE
+
+The SQL `LIKE` command is used in conjunction with the `SELECT` statement to filter rows based on a specified pattern in a column. It is commonly used with text-based columns, such as strings, to perform pattern matching. The `LIKE` operator allows you to search for a specified pattern within a column's data. The two wildcard characters often used with `LIKE` are:
+
+- `_ (Underscore)`: Represents a single character. It can be used to match a specific character at a specific position. Example: `LIKE M _ _ _` is a string with four characters, starting with `M`;
+- `% (Percent Sign)`: represents one or more characters. It can be used when the number of characters in the specified portion of the string is not known. Example: `LIKE M%` is a string starting with `M` with any number of characters.
+
+Here's the basic syntax for using the `LIKE` operator:
+
+```SQL
+SELECT column1, column2 
+FROM table_name 
+WHERE column_name LIKE pattern;
+```
+
+--------------------
 ## UPDATE
 
 The SQL `UPDATE` statement is used to modify existing data in one or more rows of a table.
@@ -72,6 +107,22 @@ DELETE FROM table_name WHERE condition;
 ```
 
 --------------
+
+## TRUNCATE
+
+The SQL `TRUNCATE` statement is used to remove all the rows from a table in a database while keeping the table structure intact. Unlike the `DELETE` statement, which removes rows one by one and generates a lot of transaction log entries, the `TRUNCATE` command is typically faster because it deallocates the data pages used by the table and does not generate individual delete operations for each row.
+
+```SQL
+TRUNCATE TABLE table_name;
+```
+
+There are some important points to note about the `TRUNCATE` command:
+
+- The table itself is not removed, only its rows;
+- **Transaction**: Depending on the database system, `TRUNCATE` may be executed as an atomic transaction, meaning it can be rolled back if needed. However, this behavior can vary between database systems, so it's essential to consult the documentation for your specific database;
+- **Conditions**: You cannot use a `WHERE` clause with the `TRUNCATE` command. It removes all rows from the table.
+
+-------------------------
 
 ## ALTER TABLE
 
@@ -137,32 +188,4 @@ Note that when you drop an object, it cannot be undone and all data associated w
 
 ---------
 
-## INNER JOIN
-
-The SQL `INNER JOIN` keyword is used to select rows from both tables as long as there is a match between the columns.
-
-```SQL
-SELECT table1.column1, table1.column2, table2.column2 
-FROM table1 INNER JOIN table2 ON table1.column1 = table2.column2
-```
-
-The command above will select `column1` and `column2` from `table1` and `column2` from `table2` and show them if the comparison after the `ON` clause is true for the respective line.
-
-Example:
-
-Table atividade
-![[table-atividade-innerjoin.png]]
-
-Table funcionario
-![[table-funcionario-innerjoin.png]]
-
-```SQL
-SELECT atividade.id_atividade, atividade.nome_atividade, funcionario.id_funcionario, funcionario.nome_funcionario 
-FROM atividade INNER JOIN
-funcionario ON atividade.id_funcionario_fk = funcionario.id_funcionario;
-```
-
-The `SQL` command is comparing `id_funcionario` and `id_funcionario_fk`, if there is a match between those two columns it will show the columns from the `SELECT` keyword
-
-----------
 
