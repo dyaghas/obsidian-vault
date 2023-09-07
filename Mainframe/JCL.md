@@ -4,7 +4,7 @@
 [[USS]]
 ## Job
 
-JCL is used to describe to the system exactly what you want it to do. The task which we hand over to the system is known as a `Job`, and the component of z/OS that accepts, processes, and manages the output of these jobs is known as the Job Entry Subsystem (JES).
+JCL is used to describe to the system exactly what you want it to do. The task which is handed over to the system is known as a `Job`, and the component of z/OS that accepts, processes, and manages the output of these jobs is known as the Job Entry Subsystem (JES).
 
 -----------------------------
 ## Symbolic

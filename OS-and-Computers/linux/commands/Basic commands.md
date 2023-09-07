@@ -1,5 +1,9 @@
 #linux_commands
 
+[[Connection]]
+[[System information]]
+[[Manipulate files]]
+[[Search]]
 ## man - manual for a command or topic explanation
 
 The `man` command in Linux is used to display the manual pages for a command or topic. It provides documentation and usage information for almost all commands, utilities, and system calls in Linux.
@@ -211,8 +215,3 @@ cat file1 file2 file3 > combined_file
 This command will concatenate the contents of `file1`, `file2`, and `file3`, and save the result in a new file named `combined_file`.
 
 ------------------------
-
-[[Connection]]
-[[System information]]
-[[Manipulate files]]
-[[Search]]

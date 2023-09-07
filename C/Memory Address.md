@@ -18,7 +18,7 @@ In this algorithm, `&num` is a [pointer](Pointer.md) that has the `memory addres
 
 ## Buffer overflow
 
-Be careful when writing or reading information, as they can be placed adjacent to one another and C does not perform any sort of range checking when accessing a memory address, which means that you can accidentally manipulate information from another array if the specified index overflows. Look at the example below:
+Be careful when writing or reading information, as they can be placed adjacent to one another and some programming languages does not perform any sort of range checking when accessing a memory address, which means that you can accidentally manipulate information from another array if the specified index overflows. Look at the example below:
 
 ```C
 char A[8] = "";
