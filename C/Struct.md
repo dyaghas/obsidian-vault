@@ -32,6 +32,8 @@ struct Person person1;
 strcpy("This is a string", person1.name);
 ```
 
+---------------------
+
 ## Typedef
 
 The `Typedef` keyword is used to create an `alias` in C. When used with a struct datatype, it removes the necessity to specify `struct` everytime a struct is accessed. Example:
