@@ -31,3 +31,21 @@ When accessing a structure `member`, you can work with its value or memory addre
 struct Person person1;
 strcpy("This is a string", person1.name);
 ```
+
+## Typedef
+
+The `Typedef` keyword is used to create an `alias` in C. When used with a struct datatype, it removes the necessity to specify `struct` everytime a struct is accessed. Example:
+
+```C
+typedef struct myStruct {
+  int var;
+} myStruct;
+
+//creating an instance of myStruct
+myStruct struct1;
+
+//storing a value in the 'var' variable
+struct1.var = 1;
+```
+
+In the code snippet above, there's no need to type `struct myStruct struct1` when creating an instance of `myStruct`.
