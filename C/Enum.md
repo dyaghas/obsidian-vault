@@ -46,10 +46,10 @@ typedef enum menu {
   TEA,
   JUICE,
   BEER,
-} menu
+} Menu
 
 int main(void) {
-  menu mario = COFFEE;  //specifying that it is a enum is unnecessary
+  Menu mario = COFFEE;  //specifying that it is a enum is unnecessary
   
 }
 ```
