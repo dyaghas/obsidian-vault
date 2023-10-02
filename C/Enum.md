@@ -27,9 +27,11 @@ enum menu {
   SODA = 25,
   TEA = 3,
   JUICE = 8,
-  BEER = 1,
+  BEER,
 }
 ```
+
+**Obs: the value that corresponds to `BEER` is 9 and not 4, thats because the last element before this one has a value of 8.**
 
 ---------------
 
