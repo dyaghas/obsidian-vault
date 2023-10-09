@@ -28,3 +28,43 @@ int *ptr = &x;
 
 printf("%d", *ptr) // The pointer is dereferenced with an *, called the `dereference operator`;
 ```
+
+----------------------------------------
+
+## NULL pointer Assignment
+
+```C
+int *ptr = NULL;
+```
+
+In C, the NULL variable is the same as ((void *) 0), which means that it is a void pointer (can be cast to any other type of pointer) that points to the neniry address 0, which is always invalid. In that case, values cannot be stored into this pointer before it receives a valid address or a runtime error will occur.
+
+--------------------
+
+## Pointers and Constants
+
+The `const` keyword can be used in a pointer in two different cases: constant value or constant memory address.
+
+### Constant Pointer
+
+```C
+int *const ptr = &some_data
+```
+
+The memory address stored in the pointer cannot be changed.
+
+### Pointer to Constants
+
+```C
+const int *ptr = &some_data
+```
+
+The value pointed to cannot be changed by the pointer.
+
+### Everything Constant
+
+```C
+const int const* ptr = &some_data
+```
+
+Neither the pointer nor the value it points to can be changed.
