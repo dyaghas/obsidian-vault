@@ -1,6 +1,6 @@
 #C
 
-`Char` is a `datatype` that can store a single character. Computers does not understand characters, so to be able to interpret a character, it converts a numerical value to a character through the `ASCII Table`, which goes from the integer 0 to 255. Because of that, a `char` occupies 1 byte in memory or 8 bits (The amount necessary to represent the number 255 in binary).
+`Char` is a `datatype` that can store a single character. Computers does not understand characters, so to be able to interpret one, it converts a numerical value to a character through the `ASCII Table`, which goes from the integer 0 to 255. Because of that, a `char` occupies 1 byte in memory or 8 bits (The amount necessary to represent the number 255 in binary).
 
 The following line of code creates a `char` variable:
 
@@ -76,3 +76,42 @@ char days[][10] = {
 
 printf("%s", days[3]); 
 ```
+
+The number of rows is left empty because the compiler will deduce it automatically according to the number of days inside the matrix. Its columns, on another hand, have to be specified so the compiler knows the maximum number of characters in each row plus the ending `NULL` character.
+
+To print those weekdays , a for loop like the following will do the job: 
+
+```C
+for(int i = 0; i < 7; i++) {
+  printf("%s\n", days[i]);
+}
+```
+
+This algorithm will print the **i**th line in the matrix, meaning that each loop will print an entire day string.
+
+The same ´array of strings´ can be created with pointers like the following:
+
+```C
+char *days[]  = {
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday",
+"Saturday",
+"Sunday",
+};
+```
+
+Those information will be allocated different in memory. With a matrix like in the first case, every empty index up to 10 on each string will be stored with an empty valuee, meaning that every string will have a length of 10, but with pointers, a single dimensional array will be defined storing pointers that refers to different strings, each one with different lengths, storing only one index with the `NULL` value. This can save memory space as each string will store only the necessary amount of information.
+
+#### Reading a string input
+
+
+```C
+char var[10]
+
+scanf("%s, var);
+```
+
+This method of scanning a string has some drawbacks, like only being able to strings with a size of up to the defined array length and storing only one word at a time, because the method scanf starts reading at the first character after a whitespace and stops when it finds a whitespace before a character.
