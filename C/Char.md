@@ -1,6 +1,6 @@
 #C
 
-`Char` is a `datatype` that can store a single character. Computers does not understand characters, so to be able to interpret one, it converts a numerical value to a character through the `ASCII Table`, which goes from the integer 0 to 255. Because of that, a `char` occupies 1 byte in memory or 8 bits (The amount necessary to represent the number 255 in binary).
+`Char` is a `datatype` that can store a single character. Computers do not understand characters, so to be able to interpret one, it converts a numerical value to a character through the `ASCII Table`, which goes from the integer 0 to 255. Because of that, a `char` occupies 1 byte in memory or 8 bits (The amount necessary to represent the number 255 in binary).
 
 The following line of code creates a `char` variable:
 
