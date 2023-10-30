@@ -10,6 +10,6 @@ The sorting works with two pointers, one starts at index 0 and the other one at 
 
 - Average case: O(n log(n))
 
-- Worst case: O(n²): Occurs when the pivot is the biggest or smallest element in the dataset, dividing it into a big array and a small one.
+- Worst case: O(n²): Occurs when the pivot is the biggest or smallest element in the dataset, dividing it into one array only.
 
 - Best case: O(n log(n)): Happens when the pivot is as close as possible to the average value in the dataset, dividing it into two similar sized arrays.

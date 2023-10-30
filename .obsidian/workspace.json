@@ -11,29 +11,21 @@
             "id": "0990a218490099a1",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "c4d619c6a587e712",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/algorithms/Sorting algorithms/QuickSort.md",
+                "file": "Discrete Math/Listas.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4b196d240e31d0b8",
+            "id": "8e878accd653a0af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Commands.md",
+                "file": "Java/algorithms/Sorting algorithms/Selection Sort.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Discrete Math/Listas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Discrete Math/Listas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Discrete Math/Listas.md"
+              }
             }
           },
           {
@@ -182,51 +178,51 @@
   },
   "active": "0990a218490099a1",
   "lastOpenFiles": [
+    "Pasted image 20231030113019.png",
+    "Pasted image 20231030112810.png",
+    "Pasted image 20231030112635.png",
+    "Pasted image 20231030112436.png",
+    "Pasted image 20231030105832.png",
+    "Pasted image 20231030104537.png",
+    "Pasted image 20231030104439.png",
+    "Pasted image 20231030103910.png",
+    "Pasted image 20231030103754.png",
+    "Discrete Math/Listas.md",
+    "Discrete Math",
+    "Untitled Untitled",
+    "Java/algorithms/Sorting algorithms/QuickSort.md",
+    "Java/algorithms/Sorting algorithms/MergeSort.md",
+    "Java/algorithms/Sorting algorithms/Bubble Sort.md",
+    "Java/algorithms/Sorting algorithms/Selection Sort.md",
+    "Java/theory/data-structure/Array.md",
+    "Java/theory/data-structure/hash function.md",
+    "Java/algorithms/Searching algorithms/Binary Search.md",
+    "Java/algorithms/Searching algorithms/Sequential Search.md",
+    "Java/algorithms/Sorting algorithms/Insertion Sort.md",
+    "C/Pointer.md",
+    "C/Char.md",
+    "SQL/Commands.md",
+    "Java/theory/Composition.md",
     "C/C.md",
     "C/Struct.md",
     "C/Enum.md",
     "C/Memory Address.md",
-    "C/Char.md",
     "C/Typedef.md",
-    "SQL/Commands.md",
-    "Java/algorithms/Sorting algorithms/QuickSort.md",
     "C/Bitwise Operators.md",
-    "Pasted image 20231020155521.png",
+    "images/Pasted image 20231020155521.png",
     "Web/Web.md",
     "SQL/View.md",
     "SQL/Basic commands.md",
-    "C/Pointer.md",
     "Git/Local changes.md",
     "Git/Basic commands.md",
-    "Mainframe/JCL.md",
-    "OS-and-Computers/linux/commands/Manipulate files.md",
-    "OS-and-Computers/linux/commands/Basic commands.md",
-    "SQL/SQL.md",
-    "Mainframe/USS.md",
-    "Mainframe/Mainframe.md",
-    "Git/Git.md",
-    "OS-and-Computers/linux/Linux.md",
-    "Java/Java.md",
-    "Java/OOP_pillars/Abstraction.md",
-    "Java/OOP_pillars/Inheritance.md",
     "Mainframe",
     "images/Pasted image 20230830143842.png",
-    "images/Pasted image 20230830143525.png",
-    "Pasted image 20230830143247.png",
-    "Pasted image 20230830143141.png",
-    "images/Pasted image 20230817214848.png",
-    "images/Pasted image 20230817214903.png",
     "C",
-    "images/table-atividade-innerjoin.png",
-    "images/table-funcionario-innerjoin.png",
     "Web",
     "Java/theory/data-structure",
-    "images/Pasted image 20230426132026.png",
     "images/erm",
     "theory",
     "Git",
-    "OS-and-Computers/linux/commands",
-    "OS-and-Computers/system",
-    "OS-and-Computers/system/memory/volatile-memory"
+    "OS-and-Computers/linux/commands"
   ]
 }
