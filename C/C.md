@@ -13,3 +13,7 @@ int main(void) {
 ```
 
 [[Memory Address]]
+[[Char]]
+[[Typedef]]
+[[Enum]]
+[[Struct]]
