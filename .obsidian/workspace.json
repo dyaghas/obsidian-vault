@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "931a7d173b905ca3",
+        "id": "ede635d79a52d360",
         "type": "tabs",
         "children": [
           {
-            "id": "0990a218490099a1",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "6e81020c615608e4",
+            "id": "ee8bb3547e71d270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/Pointer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c167f0783fd3e79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/Local changes.md",
+                "file": "C/Memory Address.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "abstract",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C/Memory Address.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C/Memory Address.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +132,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C/Memory Address.md"
+              }
+            }
+          },
+          {
+            "id": "6d9e82f21839e17f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
@@ -170,53 +164,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0990a218490099a1",
+  "active": "ee8bb3547e71d270",
   "lastOpenFiles": [
-    "C/Memory Address.md",
+    "OS-and-Computers/system/memory/Memory.md",
+    "Pasted image 20231031151323.png",
+    "Pasted image 20231031151421.png",
+    "Pasted image 20231031151343.png",
+    "Pasted image 20231031122240.png",
+    "Pasted image 20231031121806.png",
+    "Pasted image 20231030112635.png",
+    "Pasted image 20231030105832.png",
+    "Pasted image 20231030104439.png",
+    "Pasted image 20231030103910.png",
+    "Pasted image 20231030103754.png",
+    "Discrete Math/Listas.md",
+    "Discrete Math",
+    "Untitled Untitled",
+    "Java/algorithms/Sorting algorithms/QuickSort.md",
+    "Java/algorithms/Sorting algorithms/MergeSort.md",
+    "Java/algorithms/Sorting algorithms/Bubble Sort.md",
+    "Java/algorithms/Sorting algorithms/Selection Sort.md",
+    "Java/theory/data-structure/Array.md",
+    "Java/theory/data-structure/hash function.md",
+    "Java/algorithms/Searching algorithms/Binary Search.md",
+    "Java/algorithms/Searching algorithms/Sequential Search.md",
+    "Java/algorithms/Sorting algorithms/Insertion Sort.md",
     "C/Pointer.md",
+    "C/Char.md",
+    "SQL/Commands.md",
+    "Java/theory/Composition.md",
+    "C/C.md",
+    "C/Struct.md",
+    "C/Enum.md",
+    "C/Memory Address.md",
+    "C/Typedef.md",
+    "C/Bitwise Operators.md",
+    "Web/Web.md",
+    "SQL/View.md",
+    "SQL/Basic commands.md",
     "Git/Local changes.md",
     "Git/Basic commands.md",
-    "SQL/Commands.md",
-    "Mainframe/JCL.md",
-    "OS-and-Computers/linux/commands/Manipulate files.md",
-    "OS-and-Computers/linux/commands/Basic commands.md",
-    "SQL/Basic commands.md",
-    "SQL/SQL.md",
-    "Mainframe/USS.md",
-    "Mainframe/Mainframe.md",
-    "Git/Git.md",
-    "OS-and-Computers/linux/Linux.md",
-    "Java/Java.md",
-    "Java/OOP_pillars/Abstraction.md",
-    "Java/OOP_pillars/Inheritance.md",
-    "Java/theory/data-structure/LinkedList.md",
-    "OS-and-Computers/system/memory/Memory.md",
     "Mainframe",
-    "images/Pasted image 20230830143842.png",
-    "images/Pasted image 20230830143525.png",
-    "Pasted image 20230830143247.png",
-    "Pasted image 20230830143141.png",
-    "images/Pasted image 20230817214848.png",
-    "images/Pasted image 20230817214903.png",
-    "Java/theory/data-structure/Data structure.md",
-    "Java/theory/data-structure/HashMap.md",
-    "OS-and-Computers/system/memory/non-volatile-memory/Non-volatile memory.md",
-    "OS-and-Computers/system/memory/Virtual Memory.md",
-    "OS-and-Computers/system/Operating System.md",
-    "OS-and-Computers/linux/Bootloader.md",
-    "OS-and-Computers/system/memory/volatile-memory/Volatile memory.md",
     "C",
-    "images/table-atividade-innerjoin.png",
-    "images/table-funcionario-innerjoin.png",
     "Web",
     "Java/theory/data-structure",
-    "images/Pasted image 20230426132026.png",
-    "images/erm/erm-entity-image.png",
     "images/erm",
     "theory",
     "Git",
-    "OS-and-Computers/linux/commands",
-    "OS-and-Computers/system",
-    "OS-and-Computers/system/memory/volatile-memory"
+    "OS-and-Computers/linux/commands"
   ]
 }

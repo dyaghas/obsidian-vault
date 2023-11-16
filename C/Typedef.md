@@ -1,3 +1,5 @@
+#C
+
 The `typedef` keyword is used to give a datatype a new name. This makes the code more readable and easier to maintain. For example:
 
 ```C

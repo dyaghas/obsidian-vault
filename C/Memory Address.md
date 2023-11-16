@@ -36,3 +36,19 @@ The excessive 2 bytes overflows and corrupts the variable `B` data.
 `Buffer Overflow` is a major problem as malicious hackers can use it to access or change information in a program.
 
 -----------------
+
+## Stack, Heap and Static memory
+
+A program can physically allocate memory in three diferent locations.
+
+- `Stack`: it is a LIFO (Last In First Out) data structure that stores methods and functions local variables. After the method or function is done, the memory used in the stack is freed automatically by the compiler. It is divided into frames, one frame for each function.
+- `Heap`: it is a chunk of memory that can be used dinamically, meaning that the allocation does not happen automatically. It is extremely useful in cases where the amount of memory needed is not known before hand, but be careful as `memory leaks` can happen in the `heap` and cause major problems.
+- `Static`: it is reserved for blocks of memory that are known to be used throught the entire program, it stores `global` and `static` variables.
+
+### Memory Leak
+
+Happens when a portion of memory is not in use anymore but still allocated. `Memory leaks` can cause many problems like crashes. Even a small `memory leak` can be problematic as it's normally a reocurring problem, if a variable in a function is not deallocated after its use and this function is called multiple times, all the memory will be ocuppied eventually.
+
+----------------------------
+
+[[Bitwise Operators]]
