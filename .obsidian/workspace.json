@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "931a7d173b905ca3",
+        "id": "ede635d79a52d360",
         "type": "tabs",
         "children": [
           {
-            "id": "0990a218490099a1",
+            "id": "ee8bb3547e71d270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discrete Math/Listas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e878accd653a0af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/algorithms/Sorting algorithms/Selection Sort.md",
+                "file": "C/Memory Address.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discrete Math/Listas.md",
+                "file": "C/Memory Address.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discrete Math/Listas.md",
+                "file": "C/Memory Address.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discrete Math/Listas.md"
+                "file": "C/Memory Address.md"
               }
             }
           },
@@ -176,14 +164,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0990a218490099a1",
+  "active": "ee8bb3547e71d270",
   "lastOpenFiles": [
-    "Pasted image 20231030113019.png",
-    "Pasted image 20231030112810.png",
+    "OS-and-Computers/system/memory/Memory.md",
+    "Pasted image 20231031151323.png",
+    "Pasted image 20231031151421.png",
+    "Pasted image 20231031151343.png",
+    "Pasted image 20231031122240.png",
+    "Pasted image 20231031121806.png",
     "Pasted image 20231030112635.png",
-    "Pasted image 20231030112436.png",
     "Pasted image 20231030105832.png",
-    "Pasted image 20231030104537.png",
     "Pasted image 20231030104439.png",
     "Pasted image 20231030103910.png",
     "Pasted image 20231030103754.png",
@@ -209,14 +199,12 @@
     "C/Memory Address.md",
     "C/Typedef.md",
     "C/Bitwise Operators.md",
-    "images/Pasted image 20231020155521.png",
     "Web/Web.md",
     "SQL/View.md",
     "SQL/Basic commands.md",
     "Git/Local changes.md",
     "Git/Basic commands.md",
     "Mainframe",
-    "images/Pasted image 20230830143842.png",
     "C",
     "Web",
     "Java/theory/data-structure",
