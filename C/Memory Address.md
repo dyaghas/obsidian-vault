@@ -36,3 +36,5 @@ The excessive 2 bytes overflows and corrupts the variable `B` data.
 `Buffer Overflow` is a major problem as malicious hackers can use it to access or change information in a program.
 
 -----------------
+
+[[Dynamic Memory Allocation]]
