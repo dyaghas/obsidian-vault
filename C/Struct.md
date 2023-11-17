@@ -51,3 +51,63 @@ struct1.var = 1;
 ```
 
 In the code snippet above, there's no need to type `struct myStruct struct1` when creating an instance of `myStruct`.
+
+-----------------
+
+## Initialization
+
+There are two types of `structure initialization` in C, `implicit initialization` and `explicit initialization`.
+
+Consider this `structure` for the following examples:
+
+```C
+//structure example
+typedef struct Guy {
+	char *name;
+	int age;
+} Guy;
+```
+
+#### Implicit initialization
+
+```C
+Guy {
+	"Peter",
+	25
+}
+```
+
+This type of initialization can be confusing on bigger `structures` as the variable that is being initialized is not named.
+
+#### Explicit initialization
+
+```C
+Guy {
+	.name = "Peter";
+	.age = 25;
+}
+```
+
+The variable names are explicit and they can be initialized out of order.
+
+---------------
+
+#### Nested initialization
+
+A structure can be initialized inside another one:
+
+```C
+//consider the structure Guy and a new Car struct
+Car {
+	.brand = "Nissan",
+	.year = 2023,
+	.owner = {
+		.name = "Gabriel",
+		.age = 30,
+	},
+}
+```
+
+------------------------
+
+[[BitField]]

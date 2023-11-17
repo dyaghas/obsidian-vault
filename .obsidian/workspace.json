@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8ce9c691feb686dc",
+        "id": "0cd82dd97ae68241",
         "type": "tabs",
         "children": [
           {
-            "id": "90b3a34cb0d459b9",
+            "id": "349308c9823ca0a9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,15 +16,18 @@
             }
           },
           {
-            "id": "378792226daa1eeb",
+            "id": "a504299ac8ef162c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "C/Struct.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,9 +168,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "378792226daa1eeb",
+  "active": "d42a61d7f793c7fe",
   "lastOpenFiles": [
-    "Dynamic Memory Allocation.md",
+    "C/Struct.md",
+    "BitField.md",
+    "Java/theory/data-structure/Stack.md",
+    "C/Dynamic Memory Allocation.md",
     "images/Pasted image 20231020155521.png",
     "C/Memory Address.md",
     "C/C.md",
@@ -198,12 +204,10 @@
     "C/Char.md",
     "SQL/Commands.md",
     "Java/theory/Composition.md",
-    "C/Struct.md",
     "C/Enum.md",
     "C/Typedef.md",
     "C/Bitwise Operators.md",
     "Web/Web.md",
-    "SQL/Basic commands.md",
     "Mainframe",
     "C",
     "Web",
