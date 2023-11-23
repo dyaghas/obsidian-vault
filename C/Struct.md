@@ -1,6 +1,6 @@
 #C
 
-Structure is a composite data type used to group together variables of different data types, those variables are called `members`. 
+Structure is a composite `data type` used to group together variables of different data types, those variables are called `members`. 
 It is similar to an array but with less limitation to its values and their data types. Example:
 
 ```C

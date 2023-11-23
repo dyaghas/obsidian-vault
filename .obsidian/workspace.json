@@ -16,18 +16,55 @@
             }
           },
           {
+            "id": "1f4a752db3763cc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C/C.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d13662734f4bd092",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C/Macro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26e463fa2234a103",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data-structure/data-type/Data type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cd0a3c9a6d8d89e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data-structure/Union.md",
+                "file": "data-structure/data-type/Union.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,6 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "C/Macro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "C/Macro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +177,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "C/Macro.md"
+              }
             }
           },
           {
@@ -170,10 +211,17 @@
   },
   "active": "d42a61d7f793c7fe",
   "lastOpenFiles": [
-    "C/BitField.md",
+    "C/C.md",
+    "C/Macro.md",
+    "C/Char.md",
+    "data-structure/data-type/Data type.md",
+    "C/Struct.md",
+    "Data.md",
+    "data-structure/data-type",
     "C/Typedef.md",
-    "data-structure/Union.md",
-    "Java/basics/Data type.md",
+    "C/Enum.md",
+    "C/BitField.md",
+    "data-structure/data-type/Union.md",
     "data-structure/Data structure.md",
     "data-structure/LinkedList.md",
     "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
@@ -182,18 +230,15 @@
     "Java/basics/Access modifiers.md",
     "Java/basics/Scope.md",
     "Java/theory/User input.md",
-    "Java/basics/Variable.md",
+    "data-structure/data-type/Variable.md",
     "Java/basics/Method.md",
     "C/Bitwise Operators.md",
-    "C/Struct.md",
     "data-structure/Stack.md",
     "C/Dynamic Memory Allocation.md",
     "images/Pasted image 20231020155521.png",
     "C/Memory Address.md",
-    "C/C.md",
     "C/Pointer.md",
     "SQL/View.md",
-    "OS-and-Computers/system/memory/Memory.md",
     "Pasted image 20231031151323.png",
     "Pasted image 20231031151421.png",
     "Pasted image 20231031151343.png",
@@ -203,18 +248,14 @@
     "Pasted image 20231030105832.png",
     "Pasted image 20231030104439.png",
     "Pasted image 20231030103910.png",
-    "Discrete Math/Listas.md",
     "Discrete Math",
     "Untitled Untitled",
-    "Java/algorithms/Sorting algorithms/QuickSort.md",
-    "Java/algorithms/Sorting algorithms/MergeSort.md",
     "Mainframe",
     "C",
     "Web",
     "data-structure",
     "images/erm",
     "theory",
-    "Git",
-    "OS-and-Computers/linux/commands"
+    "Git"
   ]
 }
