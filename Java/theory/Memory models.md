@@ -1,4 +1,4 @@
-#theory
+#data_structure 
 
 Used to trace code and track [variables](Variable.md) values throught its execution. Example:
 

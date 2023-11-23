@@ -11,28 +11,23 @@
             "id": "349308c9823ca0a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BitField.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "361f6a5326ec68f5",
+            "id": "cd0a3c9a6d8d89e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C/Bitwise Operators.md",
+                "file": "data-structure/Union.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#C",
+                "query": "tag:#basics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -107,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C/Bitwise Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +117,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C/Bitwise Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +138,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "C/Bitwise Operators.md"
-              }
+              "state": {}
             }
           },
           {
@@ -178,11 +168,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "361f6a5326ec68f5",
+  "active": "d42a61d7f793c7fe",
   "lastOpenFiles": [
-    "BitField.md",
+    "C/BitField.md",
+    "C/Typedef.md",
+    "data-structure/Union.md",
+    "Java/basics/Data type.md",
+    "data-structure/Data structure.md",
+    "data-structure/LinkedList.md",
+    "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
+    "Java/theory/Type casting.md",
+    "Java/theory/Memory models.md",
+    "Java/basics/Access modifiers.md",
+    "Java/basics/Scope.md",
+    "Java/theory/User input.md",
+    "Java/basics/Variable.md",
+    "Java/basics/Method.md",
+    "C/Bitwise Operators.md",
     "C/Struct.md",
-    "Java/theory/data-structure/Stack.md",
+    "data-structure/Stack.md",
     "C/Dynamic Memory Allocation.md",
     "images/Pasted image 20231020155521.png",
     "C/Memory Address.md",
@@ -204,24 +208,10 @@
     "Untitled Untitled",
     "Java/algorithms/Sorting algorithms/QuickSort.md",
     "Java/algorithms/Sorting algorithms/MergeSort.md",
-    "Java/algorithms/Sorting algorithms/Bubble Sort.md",
-    "Java/algorithms/Sorting algorithms/Selection Sort.md",
-    "Java/theory/data-structure/Array.md",
-    "Java/theory/data-structure/hash function.md",
-    "Java/algorithms/Searching algorithms/Binary Search.md",
-    "Java/algorithms/Searching algorithms/Sequential Search.md",
-    "Java/algorithms/Sorting algorithms/Insertion Sort.md",
-    "C/Char.md",
-    "SQL/Commands.md",
-    "Java/theory/Composition.md",
-    "C/Enum.md",
-    "C/Typedef.md",
-    "C/Bitwise Operators.md",
-    "Web/Web.md",
     "Mainframe",
     "C",
     "Web",
-    "Java/theory/data-structure",
+    "data-structure",
     "images/erm",
     "theory",
     "Git",

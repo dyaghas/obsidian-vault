@@ -1,4 +1,4 @@
-#basics 
+#data_structure 
 
 In Java, user input is proccessed through an instance of the **Scanner** class.
 

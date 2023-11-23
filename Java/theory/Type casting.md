@@ -1,4 +1,4 @@
-#theory 
+#data_structure 
 
 Type casting, also known as type conversion, is a process of converting a value from one [[Data type]] to another one. Example:
 

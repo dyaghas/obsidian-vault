@@ -13,7 +13,7 @@ A method always has a return type, even if it does not return anything. Some exa
 
 **Constructor**: special method that gets called when an object is created. Does not have a return type, not even void.
 
-**Getters & setters**: Are capable of accessing a private [variable](Variable.md) outside of its class, returning or changing it's value, respectively.
+**Getters & setters**: Are capable of accessing a private variable outside of its class, returning or changing it's value, respectively.
 
 -----
 

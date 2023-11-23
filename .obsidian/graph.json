@@ -15,6 +15,13 @@
       }
     },
     {
+      "query": "#data_type",
+      "color": {
+        "a": 1,
+        "rgb": 16739179
+      }
+    },
+    {
       "query": "#algorithm",
       "color": {
         "a": 1,
@@ -105,10 +112,10 @@
   "nodeSizeMultiplier": 0.77326909350464,
   "lineSizeMultiplier": 0.997109207708779,
   "collapse-forces": false,
-  "centerStrength": 0.816916488222698,
-  "repelStrength": 17.0833333333333,
+  "centerStrength": 0.421875,
+  "repelStrength": 10.4166666666667,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.6316046762907532,
+  "scale": 0.4505081176757925,
   "close": true
 }

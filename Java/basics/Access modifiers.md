@@ -1,4 +1,4 @@
-#basics
+#data_structure 
 
 A [variable](Variable.md) access can be changed through visibility modifiers to make the code more readable and not as prone to human failure.
 
