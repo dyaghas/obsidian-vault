@@ -14,6 +14,18 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "37691ca851b698ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Basic commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -158,10 +170,19 @@
   },
   "active": "349308c9823ca0a9",
   "lastOpenFiles": [
+    "OS-and-Computers/linux/Bootloader.md",
+    "SQL/Value modifiers.md",
+    "SQL/Primary key.md",
+    "SQL/Basic commands.md",
+    "SQL/SQL.md",
+    "SQL/Foreign key.md",
+    "C/Memory Address.md",
+    "C/C.md",
+    "SQL/Commands.md",
+    "SQL/Database.md",
     "C/Macro.md",
     "C/Bitwise Operators.md",
     "data-structure/Data structure.md",
-    "C/C.md",
     "OS-and-Computers/system/memory/Virtual Memory.md",
     "OS-and-Computers/system/memory/volatile-memory/Cache Memory.md",
     "OS-and-Computers/system/memory/volatile-memory/RAM.md",
@@ -175,16 +196,7 @@
     "C/Char.md",
     "data-structure/data-type/Data type.md",
     "C/Struct.md",
-    "Data.md",
     "data-structure/data-type",
-    "C/Typedef.md",
-    "C/Enum.md",
-    "C/BitField.md",
-    "data-structure/data-type/Union.md",
-    "data-structure/LinkedList.md",
-    "Java/algorithms/Sorting algorithms/Sorting algorithms.md",
-    "Java/theory/Type casting.md",
-    "Java/theory/Memory models.md",
     "images/Pasted image 20231020155521.png",
     "Pasted image 20231031151323.png",
     "Pasted image 20231031151421.png",

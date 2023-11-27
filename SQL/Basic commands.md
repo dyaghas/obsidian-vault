@@ -2,6 +2,8 @@
 
 Here you can find some basic commands in SQL.
 
+[[Value modifiers]]
+
 For more advanced commands, take a look at [[Commands]]
 
 ## CREATE DATABASE
@@ -11,6 +13,8 @@ The SQL `CREATE DATABASE` command is used to create a new table in a relational 
 ```SQL
 CREATE DATABASE database_name;
 ```
+
+Obs: in SQL, it is good practice to use single quotation `'` markers for text instead of double `"`
 
 ----------------------
 
