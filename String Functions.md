@@ -11,7 +11,7 @@ This function takes any number of strings as parameters and concatenates them in
 ```sql
 SELECT CONCAT("This", "is", "a", "string");
 
---An example with variables first_name and last_name:
+-- An example with variables first_name and last_name:
 SELECT CONCAT(first_name, last_name);
 ```
 
@@ -29,7 +29,7 @@ It receives three parameters, the string, the first index and its length. After 
 ```sql
 SELECT SUBSTRING("This is a string", 4, 7);
 
---Returns 's is a '
+-- Returns 's is a '
 ```
 
 #### Notes
@@ -47,10 +47,43 @@ The `REPLACE` function takes three parameters: string, the substring that will b
 ```sql
 SELECT REPLACE('Hello World', 'World', "Universe");
 
---Returns 'Hello Universe'
+-- Returns 'Hello Universe'
 ```
 
 It is important to note that this function does not make any changes to the original data, only to the `SELECT` statement itself.
 
 ---------------
 
+## LENGTH & CHAR LENGTH
+
+Both functions returns the length of a string, the main difference is that `LENGTH` returns the quantity of bytes while the `CHAR LENGTH` how many characters there is. This means that in a string with characters that occupy more than one byte, those methods will return different values.
+
+```sql
+SELECT CHAR_LENGTH("This is a string");
+
+-- Or
+
+SELECT LENGTH("This is a string");
+
+-- Both returns 17
+```
+
+-------------------------
+
+## UPPER & LOWER
+
+Those functions takes a string and returns it as upper case or lower case, respectively:
+
+```sql
+SELECT UPPER("This is a string");
+-- Returns THIS IS A STRING
+
+-- Or
+
+SELECT LOWER("This is a string");
+-- Returns this is a string
+```
+
+#### Notes
+ - `UCASE` is a synonym to `UPPER`;
+ - `LCASE` is a synonym to `LOWER`;
