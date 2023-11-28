@@ -2,6 +2,7 @@
 
  [[PRIMARY KEY]]
  [[FOREIGN KEY]]
+ [[String Functions]]
 
 ---------------------------------
 
