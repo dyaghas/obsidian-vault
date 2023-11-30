@@ -1,5 +1,7 @@
 #sql 
 
+[[Subqueries]]
+
 ## INNER JOIN
 
 The SQL `INNER JOIN` keyword is used to select rows from both tables as long as there is a match between the columns.
@@ -97,6 +99,8 @@ SELECT COUNT(author_name), author_name FROM books GROUP BY author_name;
 Result:
 
 ![[Pasted image 20231130134808.png]]
+
+Obs: like the `ORDER BY` statement, `GROUP BY` accepts multiple parameters, meaning that it can group the authors entire name by selecting `authors_first_name` and `authors_last_name`, for example.
 
 --------------------
 

@@ -18,12 +18,24 @@
             }
           },
           {
-            "id": "f11ed8add9c5eec1",
+            "id": "8b17b93579fc06f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "SQL/Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "291757e93c9b8918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Subqueries.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "max",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,14 +180,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef7b5bf949206c01",
+  "active": "8b17b93579fc06f0",
   "lastOpenFiles": [
+    "Subqueries.md",
+    "SQL/Commands.md",
     "data-structure/Data structure.md",
     "Java/theory/Type casting.md",
     "Java/basics/Method.md",
     "Java/theory/Lambda expression.md",
     "OS-and-Computers/system/Kernel.md",
-    "SQL/Commands.md",
     "Pasted image 20231130134858.png",
     "Pasted image 20231130134808.png",
     "SQL/Basic commands.md",
@@ -197,7 +210,6 @@
     "OS-and-Computers/system/memory/volatile-memory/Cache Memory.md",
     "OS-and-Computers/system/memory/volatile-memory/RAM.md",
     "OS-and-Computers/system/memory/non-volatile-memory/SSD.md",
-    "Java/algorithms/Sorting algorithms/Selection Sort.md",
     "data-structure/data-type",
     "images/Pasted image 20231020155521.png",
     "Pasted image 20231031151323.png",
