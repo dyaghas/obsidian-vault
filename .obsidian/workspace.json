@@ -18,36 +18,12 @@
             }
           },
           {
-            "id": "1b955c2b79c987a2",
+            "id": "f7e5ddc479b12d8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "String Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a8485f5746677ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "String Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4086687c1806ffe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "String Functions.md",
+                "file": "SQL/Basic commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "like",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -188,11 +165,11 @@
   },
   "active": "c4ea14357ed19ebd",
   "lastOpenFiles": [
+    "SQL/Basic commands.md",
     "String Functions.md",
+    "SQL/Commands.md",
     "SQL/Value modifiers.md",
     "Mainframe/USS.md",
-    "SQL/Basic commands.md",
-    "SQL/Commands.md",
     "data-structure/HashMap.md",
     "data-structure/Data structure.md",
     "OS-and-Computers/linux/Bootloader.md",

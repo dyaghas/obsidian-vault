@@ -50,3 +50,30 @@ SELECT * FROM viewName;
 
 
 --------------
+
+## ORDER BY
+
+This keyword is used to order the result of a `SELECT` query through the specified column. In case of a text column, it orders alphabetically:
+
+```SQL
+SELECT * FROM table_name ORDER BY column1;
+```
+
+By default, the result is ordered in ascending order, but that can be changed with the `DESC` keyword after the specified column:
+
+```SQL
+SELECT * FROM table_name ORDER BY column1 DESC;
+```
+
+When specifying various columns in a select statement, the `ORDER BY` command can be used with a number as a parameter, specifying which of the columns should be used to order the data:
+
+```SQL
+SELECT column1, column2, column3 FROM table_name ORDER BY 3;
+```
+
+This query will use `column3` as a parameter for `ORDER BY`.
+
+Another thing to note is that `ORDER BY` can be used with multiple columns as its parameters which will order by the first parameter, then the second etc.
+
+---------------------
+
