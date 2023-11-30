@@ -76,4 +76,27 @@ This query will use `column3` as a parameter for `ORDER BY`.
 Another thing to note is that `ORDER BY` can be used with multiple columns as its parameters which will order by the first parameter, then the second etc.
 
 ---------------------
+## GROUP BY
+
+The GROUP BY keyword summarizes or aggregates identical data into single rows. For example: in a library database there can be multiple books that where written by the same author, now take a look at the following query:
+
+```SQL
+SELECT author_name FROM books GROUP BY author_name;
+```
+
+Result:
+
+![[Pasted image 20231130134858.png]]
+
+This will return all the author names in the database without any repetition, because the `GROUP BY` keyword groups every instance of an author name in the same row. By itself it is not very useful, but `GROUP BY` can be used with other functions like `COUNT` to retrieve very useful data, like how many books where written by every author, for example:
+
+```SQL
+SELECT COUNT(author_name), author_name FROM books GROUP BY author_name;
+```
+
+Result:
+
+![[Pasted image 20231130134808.png]]
+
+--------------------
 
