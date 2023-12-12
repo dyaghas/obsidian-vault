@@ -70,26 +70,10 @@ WHERE condition;
 The `WHERE` statement can implement different conditionals like:
 
 - Functions: LENGTH(), SUM(), AVG();
-- Logical operators: AND, OR, NOT;
+- [[Logical operators]]: AND, OR, NOT;
 - Comparison operators: >, <, >=, <=;
 
 Those are only some examples.
-
------------------------------
-### LIKE
-
-The SQL `LIKE` command is used in conjunction with the `SELECT` statement to filter rows based on a specified pattern in a column. It is commonly used with text-based columns, such as strings, to perform pattern matching. The `LIKE` operator allows you to search for a specified pattern within a column's data. The two wildcard characters often used with `LIKE` are:
-
-- `_ (Underscore)`: Represents a single character. It can be used to match a specific character at a specific position. Example: `LIKE M _ _ _` is a string with four characters, starting with `M`;
-- `% (Percent Sign)`: represents one or more characters. It can be used when the number of characters in the specified portion of the string is not known. Example: `LIKE M%` is a string starting with `M` with any number of characters.
-
-Here's the basic syntax for using the `LIKE` operator:
-
-```SQL
-SELECT column1, column2 
-FROM table_name 
-WHERE column_name LIKE pattern;
-```
 
 --------------------
 ## UPDATE
