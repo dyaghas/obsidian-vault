@@ -1,6 +1,7 @@
 #sql 
 
 [[Subqueries]]
+[[Case statement]]
 
 ## INNER JOIN
 
