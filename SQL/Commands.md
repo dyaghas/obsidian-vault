@@ -2,6 +2,7 @@
 
 [[Subqueries]]
 [[Case statement]]
+[[Window functions]]
 
 ## INNER JOIN
 
@@ -51,6 +52,11 @@ To access a view, use the `SELECT` statement:
 SELECT * FROM viewName;
 ```
 
+The query `CREATE OR REPLACE VIEW` can be used to alter an existing view or create a new one if it does not exist:
+
+```SQL
+CREATE OR REPLACE VIEW view_name AS query
+```
 
 --------------
 
@@ -101,7 +107,19 @@ Result:
 
 ![[Pasted image 20231130134808.png]]
 
-Obs: like the `ORDER BY` statement, `GROUP BY` accepts multiple parameters, meaning that it can group the authors entire name by selecting `authors_first_name` and `authors_last_name`, for example.
+#### WITH ROLLUP
+
+This keyword will add an summary of the entire table after all groups in a query with `GROUP BY` . For example:
+
+```SQL
+SELECT AVG(rating) FROM reviews GROUP BY series_id WITH ROLLUP;
+```
+
+In a TV series review database, this query can return the average rating of each series and the average rating of every series combined in the end.
+
+Notes: 
+- like the `ORDER BY` statement, `GROUP BY` accepts multiple parameters, meaning that it can group the authors entire name by selecting `authors_first_name` and `authors_last_name`, for example.
+- To add conditionals to a `GROUP BY`, use the `HAVING` keyword instead of `WHERE`
 
 --------------------
 
