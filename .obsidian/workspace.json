@@ -18,6 +18,18 @@
             }
           },
           {
+            "id": "9cc82ceee3ff139f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality Assurance/Test Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6ca17d53e927aacc",
             "type": "leaf",
             "state": {
@@ -165,7 +177,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -188,6 +202,9 @@
   },
   "active": "c4ea14357ed19ebd",
   "lastOpenFiles": [
+    "Quality Assurance/Test Types.md",
+    "Quality Assurance/Quality Assurance.md",
+    "images/Pasted image 20240117131001.png",
     "Readme.md",
     "SQL/Commands.md",
     "SQL/Window functions.md",
@@ -216,15 +233,12 @@
     "C/Dynamic Memory Allocation.md",
     "C/Char.md",
     "data-structure/Data structure.md",
-    "Java/theory/Type casting.md",
-    "Java/basics/Method.md",
     "images/Pasted image 20231130134858.png",
     "images/Pasted image 20231130134808.png",
     "data-structure/data-type",
     "images/Pasted image 20231020155521.png",
     "Pasted image 20231031151323.png",
     "Pasted image 20231031151421.png",
-    "Pasted image 20231031151343.png",
     "Discrete Math",
     "Untitled Untitled",
     "Mainframe",
