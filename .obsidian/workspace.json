@@ -18,48 +18,36 @@
             }
           },
           {
-            "id": "9cc82ceee3ff139f",
+            "id": "fa86904a17f98a57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Web.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74398f35a273ee55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality Assurance/Quality Assurance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81e8f9edfb1ad8ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Quality Assurance/Test Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ca17d53e927aacc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/Window functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b741a00d9b45cc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce433adef0a67fe4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,8 +190,11 @@
   },
   "active": "c4ea14357ed19ebd",
   "lastOpenFiles": [
-    "Quality Assurance/Test Types.md",
+    "Web/VLAN.md",
+    "Web/Web.md",
+    "Web/HTTP.md",
     "Quality Assurance/Quality Assurance.md",
+    "Quality Assurance/Test Types.md",
     "images/Pasted image 20240117131001.png",
     "Readme.md",
     "SQL/Commands.md",
@@ -230,9 +221,6 @@
     "Java/theory/UML diagram.md",
     "Java/basics/Object.md",
     "Java/basics/Class.md",
-    "C/Dynamic Memory Allocation.md",
-    "C/Char.md",
-    "data-structure/Data structure.md",
     "images/Pasted image 20231130134858.png",
     "images/Pasted image 20231130134808.png",
     "data-structure/data-type",
