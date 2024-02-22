@@ -41,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Agile/Agile Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Agile/Agile Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Agile/Agile Framework.md"
+              }
             }
           },
           {
@@ -176,13 +181,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4ea14357ed19ebd",
+  "active": "97d8766bcb57defd",
   "lastOpenFiles": [
+    "Quality Assurance/Test Types.md",
     "Agile/Agile Framework.md",
     "Agile/Kanban.md",
     "Agile/Scrum.md",
     "Agile",
-    "Quality Assurance/Test Types.md",
     "Quality Assurance/Quality Assurance.md",
     "SQL/Foreign key.md",
     "Git/Basic commands.md",
