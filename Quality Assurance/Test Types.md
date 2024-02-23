@@ -11,7 +11,7 @@ Tests are divided into two categories: **Functional Testing** and **Non-function
 
 Functional Testing verifies if every functionality of a software complies with its requirement. There are four types:
 
-- Unity Testing: each software component is tested individually;
+- Unit Testing: each software component is tested individually;
 - Integration Testing: different components are integrated and tested together to see if they work as expected;
 - System Testing: the system's hardware and software are tested altogether to see if its overall function works as intended;
 - Acceptance Testing: verifies if the software is ready to be delivered.
