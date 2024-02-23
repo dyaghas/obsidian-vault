@@ -22,3 +22,5 @@ An iteration of a continuous development cycle. A certain amount of work is plan
 ## Retrospective
 
 Meeting that happens after a sprint where things that went well and the ones that did not go well are discussed. Solutions are given for the problems that happened to make sure they do not happen again.
+
+[[Jira]]

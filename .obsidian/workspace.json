@@ -30,6 +30,18 @@
             }
           },
           {
+            "id": "c1ff3f7816d9f8ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agile/Jira.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d7803c6c6766ea28",
             "type": "leaf",
             "state": {
@@ -53,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agile/Agile Framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agile/Agile Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Agile/Agile Framework.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,10 +200,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97d8766bcb57defd",
+  "active": "c4ea14357ed19ebd",
   "lastOpenFiles": [
-    "Quality Assurance/Test Types.md",
     "Agile/Agile Framework.md",
+    "Agile/Jira.md",
+    "Quality Assurance/Test Types.md",
     "Agile/Kanban.md",
     "Agile/Scrum.md",
     "Agile",
