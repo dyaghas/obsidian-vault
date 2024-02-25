@@ -18,6 +18,30 @@
             }
           },
           {
+            "id": "75433ba836c57033",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality Assurance/Quality Assurance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19fa63b35b6a2aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality Assurance/Testing Life Cycle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "97d8766bcb57defd",
             "type": "leaf",
             "state": {
@@ -65,7 +89,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -131,6 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quality Assurance/Testing Life Cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quality Assurance/Testing Life Cycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +195,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quality Assurance/Testing Life Cycle.md"
+              }
             }
           },
           {
@@ -200,15 +229,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4ea14357ed19ebd",
+  "active": "19fa63b35b6a2aa9",
   "lastOpenFiles": [
-    "Agile/Agile Framework.md",
-    "Agile/Jira.md",
+    "Quality Assurance/Quality Assurance.md",
+    "OS-and-Computers/linux/Bootloader.md",
+    "data-structure/data-type/Union.md",
+    "Quality Assurance/Testing Life Cycle.md",
     "Quality Assurance/Test Types.md",
     "Agile/Kanban.md",
+    "Agile/Agile Framework.md",
+    "Agile/Jira.md",
     "Agile/Scrum.md",
     "Agile",
-    "Quality Assurance/Quality Assurance.md",
     "SQL/Foreign key.md",
     "Git/Basic commands.md",
     "Git/Git.md",
@@ -226,10 +258,7 @@
     "Java/Java.md",
     "data-structure/Data structure.md",
     "C/C.md",
-    "Web/VLAN.md",
     "images/Pasted image 20240117131001.png",
-    "SQL/Commands.md",
-    "SQL/Window functions.md",
     "images/Pasted image 20231220133257.png",
     "images/Pasted image 20231220132944.png",
     "images/Pasted image 20231220132017.png",
