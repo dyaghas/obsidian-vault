@@ -15,6 +15,7 @@ Functional Testing verifies if every functionality of a software complies with i
 - Integration Testing: different components are integrated and tested together to see if they work as expected;
 - System Testing: the system's hardware and software are tested altogether to see if its overall function works as intended;
 - Acceptance Testing: verifies if the software is ready to be delivered.
+- Regression testing: ensures that the application is stable and any changes like new features or bug fixes does not break the program. This is done after an already existing code is changed in any way.
 
 --------------------------
 

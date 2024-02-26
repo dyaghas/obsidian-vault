@@ -2,8 +2,7 @@
 
 It is an activity that ensures that a product is working as intended based on the specifications given. In a software, it checks for any problems in performance, edge cases and errors that could be generated in its execution.
 
---------------------
-
+-------------------
 ## Test Oracle
 
 A Test Oracle is a mechanism that determines whether a test has passed or failed. The software output is compared with the `Test Oracle`,typically another software that is guaranteed to produce the right output.
@@ -24,3 +23,5 @@ There are three common approaches used to implement functional testing:
 --------------------
 
 [[Test Types]]
+[[Testing Life Cycle]]
+[[Bug Report]]
