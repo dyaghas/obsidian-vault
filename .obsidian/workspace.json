@@ -18,43 +18,7 @@
             }
           },
           {
-            "id": "97d8766bcb57defd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agile/Agile Framework.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1ff3f7816d9f8ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agile/Jira.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7803c6c6766ea28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Agile/Kanban.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5cfd6504a2d56a8c",
+            "id": "5b5660dbc76854b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -131,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quality Assurance/Test Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quality Assurance/Test Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quality Assurance/Test Types.md"
+              }
             }
           },
           {
@@ -200,13 +169,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4ea14357ed19ebd",
+  "active": "5b5660dbc76854b0",
   "lastOpenFiles": [
+    "Agile/Kanban.md",
+    "Quality Assurance/Test Types.md",
+    "Agile/Scrum.md",
     "Agile/Agile Framework.md",
     "Agile/Jira.md",
-    "Quality Assurance/Test Types.md",
-    "Agile/Kanban.md",
-    "Agile/Scrum.md",
     "Agile",
     "Quality Assurance/Quality Assurance.md",
     "SQL/Foreign key.md",
