@@ -18,6 +18,18 @@
             }
           },
           {
+            "id": "5bc4a0da07cfdace",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quality Assurance/Test Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a9a72605744bd975",
             "type": "leaf",
             "state": {
@@ -41,7 +53,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Quality Assurance/Test Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Quality Assurance/Test Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Quality Assurance/Test Types.md"
+              }
             }
           },
           {
@@ -176,12 +193,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4ea14357ed19ebd",
+  "active": "5bc4a0da07cfdace",
   "lastOpenFiles": [
     "Quality Assurance/Quality Assurance.md",
+    "Quality Assurance/Test Types.md",
     "Bug Report.md",
     "Quality Assurance/Testing Life Cycle.md",
-    "Quality Assurance/Test Types.md",
     "Agile/Kanban.md",
     "Agile/Scrum.md",
     "Agile/Agile Framework.md",

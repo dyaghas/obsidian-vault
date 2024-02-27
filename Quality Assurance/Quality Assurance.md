@@ -21,6 +21,11 @@ There are three common approaches used to implement functional testing:
 - Gray Box Testing: The third type of testing is a mixture of black and white box. This happens as development moves into a crossover zone towards the end of integration and the beginning of usability.
 
 --------------------
+## Verification vs Validation
+
+In QA, `Verification` and `Validation` are two different things. The first one makes sure that a component is working as intended while the latter refers to the entire application, defining if it should be accepted or rejected.
+
+--------------------
 
 [[Test Types]]
 [[Testing Life Cycle]]
