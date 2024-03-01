@@ -76,6 +76,8 @@ Some common `history` options are:
 -   `-d`: offset deletes the history entry at the **OFFSET** position.
 -   `-a`: appends history lines.
 
+All the previous commands will be listed with a number. Typing !ListedNumber (!5 for example) will execute the command with re respective number.
+
 ---------------
 
 # uname - Unix Name
@@ -215,3 +217,11 @@ cat file1 file2 file3 > combined_file
 This command will concatenate the contents of `file1`, `file2`, and `file3`, and save the result in a new file named `combined_file`.
 
 ------------------------
+
+## bash - executes bash shell and run scripts
+
+This command is used to execute shell scripts, files with the .sh extension. Those scripts can be used for automation as they are files that contain a sequence of commands.
+
+```linux
+bash path
+```
