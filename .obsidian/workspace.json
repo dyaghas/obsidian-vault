@@ -18,6 +18,18 @@
             }
           },
           {
+            "id": "7fbaf0e5a017c831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C/Memory Address.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fdd838fe7924b34c",
             "type": "leaf",
             "state": {
@@ -52,21 +64,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1957739dca0c55f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C/Memory Address.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,13 +206,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1957739dca0c55f0",
+  "active": "7fbaf0e5a017c831",
   "lastOpenFiles": [
-    "OS-and-Computers/system/memory/Memory.md",
-    "OS-and-Computers/linux/Bootloader.md",
     "OS-and-Computers/system/Operating System.md",
-    "OS-and-Computers/linux/commands/Basic commands.md",
+    "OS-and-Computers/linux/Bootloader.md",
+    "OS-and-Computers/system/memory/Memory.md",
+    "C/Dynamic Memory Allocation.md",
     "C/Memory Address.md",
+    "OS-and-Computers/linux/commands/Basic commands.md",
     "Quality Assurance/Test Types.md",
     "Quality Assurance/Quality Assurance.md",
     "OS-and-Computers/linux/commands/Search.md",
@@ -234,7 +235,6 @@
     "Agile/Agile Framework.md",
     "Agile/Jira.md",
     "Agile",
-    "SQL/Foreign key.md",
     "images/Pasted image 20240117131001.png",
     "images/Pasted image 20231220133257.png",
     "images/Pasted image 20231220132944.png",

@@ -37,9 +37,7 @@ The excessive 2 bytes overflows and corrupts the variable `B` data.
 
 -----------------
 
-<<<<<<< HEAD
 [[Dynamic Memory Allocation]]
-=======
 ## Stack, Heap and Static memory
 
 A program can physically allocate memory in three diferent locations.
@@ -50,9 +48,8 @@ A program can physically allocate memory in three diferent locations.
 
 ### Memory Leak
 
-Happens when a portion of memory is not in use anymore but still allocated. `Memory leaks` can cause many problems like crashes. Even a small `memory leak` can be problematic as it's normally a reocurring problem, if a variable in a function is not deallocated after its use and this function is called multiple times, all the memory will be ocuppied eventually.
+Happens when a portion of memory is not in use anymore but still allocated. `Memory leaks` can cause many problems like crashes. Even a small `memory leak` can be problematic as it's normally a recurring problem, if a variable in a function is not deallocated after its use and this function is called multiple times, all the memory will be ocuppied eventually.
 
 ----------------------------
 
 [[Bitwise Operators]]
->>>>>>> 55ba3c0f8a51729613d5478b8f504aa4727ec7b1
